@@ -438,9 +438,6 @@
 .background-3d_SjE .constrainedRow-3y91Xf .button-f2h6uQ {
   margin-left: 8px;
 }
-.colorable-3rVGna {
-  color: var(--third);
-}
 .nickname-1PdAp3,
 .friend-8ZraY7 .discordTag-2ke74W {
   color: var(--third);
@@ -591,21 +588,19 @@
 .text-md-medium-2n7Vn5, .text-md-normal-2rFCH3 {
   color: var(--sec) !important;
 }
+.colorable-3rVGna > svg {
+  background-color: var(--bg2);
+}
+.colorable-3rVGna > svg:hover {
+  background-color: var(--bg3);
+}
 .colorable-3rVGna.primaryDark-2UJt1G, .colorable-3rVGna.primaryDark-2UJt1G .centerIcon-JYpTUi {
   color: var(--third);
   background-color: var(--bg);
 }
 .colorable-3rVGna.primaryDark-2UJt1G:hover, .colorable-3rVGna.primaryDark-2UJt1G:hover .centerIcon-JYpTUi {
   color: var(--third);
-  background-color: var(--bg2);
-}
-.colorable-3rVGna.white-11auuQ, .colorable-3rVGna.white-11auuQ .centerIcon-JYpTUi {
   background-color: var(--bg3);
-  color: var(--third);
-}
-.colorable-3rVGna.white-11auuQ:hover, .colorable-3rVGna.white-11auuQ:hover .centerIcon-JYpTUi {
-  background-color: var(--bg3);
-  color: var(--third);
 }
 .colorable-3rVGna.red-3T8maV, .colorable-3rVGna.red-3T8maV .centerIcon-JYpTUi {
   color: var(--third);
@@ -613,7 +608,7 @@
 }
 .colorable-3rVGna.red-3T8maV:hover, .colorable-3rVGna.red-3T8maV:hover .centerIcon-JYpTUi {
   color: var(--third);
-  background-color: var(--bg2);
+  background-color: var(--bg3);
 }
 .centerButton-1IShs7 {
   transition: 0s;
@@ -2291,7 +2286,10 @@ button[aria-label="Send a gift"] {
   fill: var(--bg2);
 }
 .bd-controls>.bd-addon-button:first-of-type,
-.bd-controls>.bd-addon-button:last-of-type {
+.bd-controls>.bd-addon-button:last-of-type,
+.input-1nrc5P,
+.quickSelectPopout-2F0PXw,
+.unread-36eUEm {
   border-radius: var(--roundness);
 }
 .noticeWrapper-8z511t {
@@ -2355,8 +2353,30 @@ button[aria-label="Send a gift"] {
 .wrapper-3Un6-K,
 .profileBadges-31rDHI,
 .withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover,
-.avatarWrapper-3y0KZ1 {
+.avatarWrapper-3y0KZ1,
+.box-qwm0Q_,
+.tag-15zcD_,
+.scrollableContainer-15eg7h {
   border-radius: var(--roundness);
+}
+.base-3IDx3L {
+  color: var(--sec);
+  background-color: var(--third) !important;
+}
+.base-3IDx3L > svg > path {
+  fill: var(--bg2);
+}
+.friend-8ZraY7 .avatar-135A-D > svg > rect {
+  x: 24;
+  y: 24;
+  width: 10px;
+  height: 10px;
+}
+.contextMenuNub-NuTZ_U {
+  padding: 0px;
+}
+.theme-dark .checkbox-1LuCGM.checked-22NTbO > svg > path {
+  fill: var(--sec);
 }
 .mask-1y0tyc foreignObject {
  mask:none;
@@ -2364,12 +2384,18 @@ button[aria-label="Send a gift"] {
 .bannerSVGWrapper-qc0szY > mask > circle {
   r: 0 ;
 }
+.wrapper-2PSQCG > svg > foreignObject {
+  mask: none;
+}
 .avatarWrapper-3y0KZ1 > svg > foreignObject {
   mask: none;
 }
 .badgeList-2pMvZX,
 .wrapperSimple-2SFl9K {
   border-radius: var(--roundness);
+}
+.controlButton-2PMNom > svg > foreignObject {
+  mask: none;
 }
 /* Square activity status mask */
 .pointerEvents-2KjWnj {
@@ -2554,7 +2580,18 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
   width: 10px;
   height: 10px;
 }
+.userInfo-regn9W > div > svg > rect {
+  x: 55;
+  y: 55;
+  width: 20px;
+  height: 20px;
+}
 .attachButtonPlus-3IYelE,
 .tipIcon-24kLNQ > path {
   d: path("M 12 2.001 H 2 V 22.001 H 22 V 2.001 Z M 17 13.001 H 13 V 17.001 H 11 V 13.001 H 7 V 11.001 H 11 V 7.001 H 13 V 11.001 H 17 V 13.001 Z");
+}
+.icon-2O29O0[src="/assets/d759f3acc6286c964cc8118d7f68b374.svg"] {
+    object-position: -100px -100px;
+    background: url("https://katze6969.github.io/themeassests/path.svg");
+    background-position: center;
 }
