@@ -1789,7 +1789,8 @@ button[aria-label="Send a gift"] {
   background-color: var(--bg3) !important;
 }
 .input-3O04eu,
-.profileBanner-2zIsK7, {
+.profileBanner-2zIsK7,
+.baseShapeRound-3epLEv {
   border-radius: var(--roundness);
 }
 .profileBanner-2zIsK7 .pencilContainer-11Kuga, .profileBannerPremium-3xIFwS .pencilContainer-11Kuga {
