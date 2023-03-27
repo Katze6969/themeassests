@@ -1,3 +1,20 @@
+:root {
+  --bg: #212121;
+  --bg2: #302f2f;
+  --bg3: #000000;
+  --sec: #bb86fc;
+  --third: #913de2;
+  --links: #cdaef3;
+  --home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png);
+  --watermark-filter-invert: 0%;
+  --watermark-filter-sepia: 50%;
+  --watermark-filter-saturate: 3000%;
+  --watermark-filter-hue-rotate: 210deg;
+  --watermark-filter-brightness: 70%;
+  --watermark-filter-contrast: 200%;
+  --darkplus-emoji-picker-color: 210deg;
+  --roundness: 0px;
+}
 .bf-toolbar .format > img, .bf-toolbar .format > svg {
   opacity: 1;
   filter: brightness(0) saturate(100%) invert(66%) sepia(80%) saturate(3418%) hue-rotate(221deg) brightness(104%) contrast(98%);
