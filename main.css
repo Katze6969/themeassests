@@ -1,3 +1,11 @@
+/**
+  * @name Purple
+  * @author pannenkoeken#4730
+  * @version ersion auto updates
+  * @description a square Pink and Purple dark theme
+  * @authorId 453951287684497420
+  * @source https://github.com/Katze6969/themeassests
+*/
 :root {
   --bg: #212121;
   --bg2: #302f2f;
@@ -2551,6 +2559,12 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
   y: 60;
   height: 16px;
   width: 16px;
+}
+.wrapper-3Un6-K > svg > rect {
+  x: 18;
+  y: 19;
+  width: 8px;
+  height: 8px;
 }
 .header-1_vWwx > div > div > svg > rect {
   x: 90;
