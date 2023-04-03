@@ -1897,6 +1897,7 @@ button[aria-label="Send a gift"] {
 .actionButton-3-B2x- {
   color: var(--sec);
   background-color: var(--bg);
+  border-radius: var(--roundness);
 }
 .actionButton-3-B2x-:hover {
   color: var(--bg);
@@ -2320,7 +2321,8 @@ button[aria-label="Send a gift"] {
 .bd-controls>.bd-addon-button:last-of-type,
 .input-1nrc5P,
 .quickSelectPopout-2F0PXw,
-.unread-36eUEm {
+.unread-36eUEm,
+.emptyCard-KDifrB {
   border-radius: var(--roundness);
 }
 .noticeWrapper-8z511t {
@@ -2592,7 +2594,12 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .wrapper-3Un6-K > svg > circle {
   display: none;
 }
-
+.status-12NUUC > svg > rect {
+  mask: none;
+  width: 10px;
+  height: 10px;
+  y: 3;
+}
 .wrapper-3Un6-K > svg > rect {
   x: 60;
   y: 60;
