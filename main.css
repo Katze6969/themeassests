@@ -1891,6 +1891,9 @@ button[aria-label="Send a gift"] {
 .scroller-kQBbkU::-webkit-scrollbar-thumb {
    border-radius: var(--roundness);
 }
+.scrollerBase-1Pkza4::-webkit-scrollbar-track {
+  border-radius: var(--roundness);
+}
 .divider-D-Vspq {
   background-color: var(--sec);
 }
@@ -2389,7 +2392,9 @@ button[aria-label="Send a gift"] {
 .avatarWrapper-3y0KZ1,
 .box-qwm0Q_,
 .tag-15zcD_,
-.scrollableContainer-15eg7h {
+.scrollableContainer-15eg7h,
+.headerIcon-2ra-HY,
+.multipleIconWrapper-2YHnS6 {
   border-radius: var(--roundness);
 }
 .base-3IDx3L {
