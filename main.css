@@ -2382,11 +2382,15 @@ button[aria-label="Send a gift"] {
 .bf-toolbar .format,
 .attachment-1PZZB2,
 .button-1zW0-r,
-.barInner-3dHef4 {
+.barInner-3dHef4,
+.status-1ZXjSF {
   border-radius: var(--roundness);
 }
 .barInner-3dHef4 {
   background-color: var(--third) !important;
+}
+.status-1ZXjSF {
+  background-color: var(--bg);
 }
 .attachment-1PZZB2,
 .filename-3A5bVl,
@@ -2398,7 +2402,9 @@ button[aria-label="Send a gift"] {
 .colorDefault-2_rLdz:active:not(.hideInteraction-1vQrZJ) {
   background-color: var(--bg2);
 }
-.badge-370Op6 {
+.badge-370Op6,
+.status-1ZXjSF,
+.slash-2yrR11 {
   color: var(--third);
 }
 .top-Ktfr_T .item-2GWPIy {
