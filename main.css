@@ -2381,11 +2381,17 @@ button[aria-label="Send a gift"] {
 .card-x5zW6z,
 .bf-toolbar .format,
 .attachment-1PZZB2,
-.button-1zW0-r {
+.button-1zW0-r,
+.barInner-3dHef4 {
   border-radius: var(--roundness);
 }
+.barInner-3dHef4 {
+  background-color: var(--third) !important;
+}
 .attachment-1PZZB2,
-.filename-3A5bVl {
+.filename-3A5bVl,
+.themed-1LCNAV .textLeft-1Noen0,
+.themed-1LCNAV .textRight-2IW704 {
   color: var(--sec);
 }
 .colorDanger-3umuSx:active:not(.hideInteraction-1vQrZJ),
