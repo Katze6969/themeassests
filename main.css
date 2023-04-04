@@ -2387,10 +2387,17 @@ button[aria-label="Send a gift"] {
 .image-1091CL,
 .upload-vLbqu-,
 .embedMedia-1mdWSP,
-.connectedAccountContainer-2TWiXT {
+.connectedAccountContainer-2TWiXT,
+.card-m7VgZ8,
+.qualitySettingsContainer-2LjkfM,
+.select-Zz0IcO,
+.item-2OyinQ:first-child,
+.item-2OyinQ:last-child,
+.upsellBanner-1tVKtW {
   border-radius: var(--roundness);
 }
-.barInner-3dHef4 {
+.barInner-3dHef4,
+.selectorButtonSelected-3cQUnj {
   background-color: var(--third) !important;
 }
 .status-1ZXjSF {
