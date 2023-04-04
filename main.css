@@ -1,3 +1,30 @@
+/**
+  * @name Purple.local
+  * @author pannenkoeken#4730
+  * @version ersion auto updates
+  * @description a square Pink and Purple dark theme
+  * @authorId 453951287684497420
+  * @source https://github.com/Katze6969/themeassests
+*/
+
+
+:root {
+  --bg: #212121;
+  --bg2: #302f2f;
+  --bg3: #000000;
+  --sec: #bb86fc;
+  --third: #913de2;
+  --links: #cdaef3;
+  --home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png);
+  --watermark-filter-invert: 0%;
+  --watermark-filter-sepia: 50%;
+  --watermark-filter-saturate: 3000%;
+  --watermark-filter-hue-rotate: 210deg;
+  --watermark-filter-brightness: 70%;
+  --watermark-filter-contrast: 200%;
+  --darkplus-emoji-picker-color: 210deg;
+  --roundness: 0px;
+}
 
 .bf-toolbar .format > img, .bf-toolbar .format > svg {
   opacity: 1;
@@ -1340,7 +1367,8 @@ button[aria-label="Send a gift"] {
   color: var(--sec) !important;
 }
 .root-2uUafN,
-.userProfileOuter-1K_BYU {
+.userProfileOuter-1K_BYU,
+.avatarSpeaking-36V2PN {
     border-radius: var(--roundness);
 }
 .closeIcon-1bRhE8 {
@@ -1431,9 +1459,6 @@ button[aria-label="Send a gift"] {
   color: var(--sec);
 }
 .theme-dark .tab-2j5AEF.selected-2LAck8 {
-  background-color: var(--bg2);
-}
-.message-24k8JL {
   background-color: var(--bg2);
 }
 .section-3G9aLW {
@@ -2114,7 +2139,12 @@ button[aria-label="Send a gift"] {
 .headerText-1FPqn4 {
   color: var(--bg2) !important;
 }
-
+.scroller-3iiyhZ {
+  background-color: var(--bg);
+}
+.searchResult-O9NDji > div {
+  backhround-color: var(--bg);
+}
 .horizontal-112GEH>.flex-2S1XBF:first-child, .horizontal-112GEH>.flexChild-3PzYmX:first-child {
   border-color: var(--sec);
   color: var(--sec);
@@ -2429,10 +2459,13 @@ button[aria-label="Send a gift"] {
   mask: none;
 }
 .badgeList-2pMvZX,
-.wrapperSimple-2SFl9K {
+.wrapperSimple-2SFl9K,
+.border-2BJQjd,
+.voiceAvatar-lRbblo {
   border-radius: var(--roundness);
 }
-.controlButton-2PMNom > svg > foreignObject {
+.controlButton-2PMNom > svg > foreignObject,
+.callAvatarMaskContainer-2Uwued > svg > foreignObject {
   mask: none;
 }
 /* Square activity status mask */
@@ -2648,3 +2681,26 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
     background: url("https://katze6969.github.io/themeassests/path.svg");
     background-position: center;
 }
+*/*
+html {
+    transform: rotate(0deg);
+}
+.container-1eFtFS,
+.content-1SgpWY,
+.content-1jQy2l,
+.container-ZMc96U.themed-Hp1KC_,
+.toolbar-3_r2xA {
+    flex-direction: row-reverse;
+}
+.unreadMentionsIndicatorBottom-3RJMnQ,
+.unreadMentionsBar-ZXXoOH:before {
+  display: none;
+}
+.messageContent-2t3eCI {
+-moz-transform: scale(-1, -1);
+-webkit-transform: scale(-1, -1);
+-o-transform: scale(-1, -1);
+-ms-transform: scale(-1, -1);
+transform: scale(-1, -1);
+}
+*/*
