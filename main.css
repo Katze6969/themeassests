@@ -1,3 +1,4 @@
+
 .bf-toolbar .format > img, .bf-toolbar .format > svg {
   opacity: 1;
   filter: brightness(0) saturate(100%) invert(66%) sepia(80%) saturate(3418%) hue-rotate(221deg) brightness(104%) contrast(98%);
@@ -36,7 +37,9 @@
 .anchor-1X4H4q {
   color: var(--sec) !important;
 }
-.hoverButtonGroup-2yZIzC {
+.hoverButtonGroup-2yZIzC,
+.userPopoutInner-nv9Y92:before,
+.userProfileInner-1ngKnf {
   border-radius: var(--roundness);
 }
 .attachment-1PZZB2.newMosaicStyle-35X6XO {
@@ -462,7 +465,7 @@
 .input-3O04eu::placeholder {
   color: var(--sec) !important;
   background-color: var(--bg);
-  border-radius: var(--roundness);
+  border-radius: var(--roundness) !important;
 }
 .colorDanger-2YLzLC {
   background-color: var(--bg3);
@@ -500,9 +503,9 @@
   color: var(--third);
 }
 .qualityIndicatorFullQuality-3Onyt5 {
-  color: var(--third);
-  background-color: var(--bg3);
-  padding: 2px;
+  color: var(--bg3);
+  background-color: var(--third);
+  padding: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -753,10 +756,15 @@
 .text-md-bold-1mgErV,
 .text-md-semibold-2VMhBr,
 .button-2BMPJJ {
-  color: var(--sec);
+  color: var(--sec) !important;
   border-radius: var(--roundness);
 }
-.arrow-2HswgU.icon-3zI3d2 {
+.connectedAccountContainer-3aLMHJ {
+  border-radius: var(--roundness);
+  border: 1px solid var(--sec);
+}
+.arrow-2HswgU.icon-3zI3d2,
+.emptyText-mZZyQk {
   color: var(--sec);
 }
 .jumpToPresentBar-1cEnH0 {
@@ -809,7 +817,8 @@
 .toggleExpandSection-1710zV:hover,
 .attachmentName-vgRpzs:hover,
 .openFullPreviewSection-31zc2v:hover,
-.formattedSize-1YbZww:hover {
+.formattedSize-1YbZww:hover,
+.discriminator-hnHkyt {
   color: var(--third);
 }
 .infoScroller-1QMpon.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN {
@@ -832,11 +841,14 @@
   background-color: var(--sec);
 }
 .tabBar-2hXqzU {
-  background-color: var(--bg);
+  background-color: #111214;
 }
 .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,
 .top-K_jibn .themed-2-lozF.item-3XjbnG:active {
   border-bottom-color: var(--sec);
+}
+.note-3M15gE textarea {
+  border-radius: var(--roundness);
 }
 .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
   border-bottom-color: var(--links);
@@ -1777,7 +1789,8 @@ button[aria-label="Send a gift"] {
 }
 .inboxTitle-EQkQZa,
 .inboxIcon-1XO7FO,
-.protip-3Kd73Y {
+.protip-3Kd73Y,
+.memberListHeader-1V_jWz {
   color: var(--third) !important;
 }
 .relationshipButtons-pZ_UWl .lookFilled-1H2Jvj.colorGreen-jIPCAS,
@@ -1795,14 +1808,25 @@ button[aria-label="Send a gift"] {
 }
 .input-3O04eu,
 .profileBanner-2zIsK7,
-.baseShapeRound-3epLEv {
-  border-radius: var(--roundness);
+.baseShapeRound-3epLEv,
+.scroller-3b1p7z,
+.memberListItem-3V-x8Q,
+.pictureInPictureVideo-2puO2Q,
+.pictureInPictureWindow-3ms5Zy,
+.baseShapeRoundLeft-heLrHp,
+.liveShapeRoundRight-1ifBrO,
+.liveIndicator-3bhXBF {
+  border-radius: var(--roundness) !important;
 }
 .profileBanner-2zIsK7 .pencilContainer-11Kuga, .profileBannerPremium-3xIFwS .pencilContainer-11Kuga {
   background-color: transparent;
 }
-.accountProfileCard-lbN7n- {
+.accountProfileCard-lbN7n-,
+.messageInputContainer-24qqTx {
   border-radius: var(--roundness);
+}
+.messageInputContainer-24qqTx {
+  border: 1px solid var(--sec);
 }
 .username-3JLfHz,
 .discriminator-2m-MqL,
@@ -2048,7 +2072,8 @@ button[aria-label="Send a gift"] {
 .menu-1QACrS, .colorDefault-CDqZdO {
   border-radius: var(--roundness);
 }
-.headerImage-2D5D-v {
+.headerImage-2D5D-v,
+.roundedBanner-uNt2w- {
   border-radius: var(--roundness);
 }
 .searchHeader-3ZIh2x {
@@ -2295,7 +2320,8 @@ button[aria-label="Send a gift"] {
 .bd-link,
 .name-OSUjF9,
 .emptyText-7HFu4Y,
-.premiumPromoTitle-3tWrPT {
+.premiumPromoTitle-3tWrPT,
+.discrimBase-v65kTs {
   color: var(--third);
 }
 .bd-settings-title.bd-settings-group-title,
@@ -2409,6 +2435,9 @@ button[aria-label="Send a gift"] {
 .themed-1LCNAV .textRight-2IW704 {
   color: var(--sec);
 }
+.pencilIcon-z04-c5 > path  {
+  color: var(--bg);
+}
 .colorDanger-3umuSx:active:not(.hideInteraction-1vQrZJ),
 .colorDefault-2_rLdz:active:not(.hideInteraction-1vQrZJ) {
   background-color: var(--bg2);
@@ -2435,7 +2464,8 @@ button[aria-label="Send a gift"] {
   fill: var(--sec);
 }
 .categoryItemDefaultCategory-3haEDq,
-.premiumPromo-1eKAIB {
+.premiumPromo-1eKAIB,
+.userProfileOuter-2tQwNf {
   border-radius: var(--roundness);
 }
 .bd-notice {
@@ -2445,7 +2475,8 @@ button[aria-label="Send a gift"] {
     -webkit-box-shadow: inset 0 0 0 2px var(--third),inset 0 0 0 3px var(--primary-630);
     box-shadow: inset 0 0 0 2px var(--third),inset 0 0 0 3px var(--primary-630);
 }
-.badgeLabel-2Eo2Mq {
+.badgeLabel-2Eo2Mq,
+.userPopoutInner-nv9Y92 > svg > mask {
   display: none;
 }
 .graphicSecondary-37AA_Y > div > svg > foreignObject,
@@ -2454,7 +2485,9 @@ button[aria-label="Send a gift"] {
 .icon-OgaO6F > foreignObject,
 .categoryItemGuildCategory-3mvXlo > div > svg > foreignObject,
 .inspectedIndicator-27zwNZ,
-.wrapper-3Ivhtz > svg > foreignObject {
+.wrapper-3Ivhtz > svg > foreignObject,
+.bannerSVGWrapper-2CLfzN > foreignObject,
+.bannerSVGWrapper-2CLfzN > foreignObject > div {
   mask: none;
 }
 .item-2LIpTv,
@@ -2469,11 +2502,13 @@ button[aria-label="Send a gift"] {
 .scrollableContainer-15eg7h,
 .headerIcon-2ra-HY,
 .multipleIconWrapper-2YHnS6,
-.reaction-3vwAF2 {
+.reaction-3vwAF2,
+.pencilContainer-18TrEJ,
+.overlayBackground-2aa7wt {
   border-radius: var(--roundness);
 }
 .base-3IDx3L {
-  color: var(--sec);
+  color: var(--bg3);
   background-color: var(--third) !important;
 }
 .base-3IDx3L > svg > path {
@@ -2492,7 +2527,7 @@ button[aria-label="Send a gift"] {
   fill: var(--sec);
 }
 .mask-1y0tyc foreignObject {
- mask:none;
+ mask: none !important;
 }
 .bannerSVGWrapper-qc0szY > mask > circle {
   r: 0 ;
@@ -2506,11 +2541,15 @@ button[aria-label="Send a gift"] {
 .badgeList-2pMvZX,
 .wrapperSimple-2SFl9K,
 .border-2BJQjd,
-.voiceAvatar-lRbblo {
+.voiceAvatar-lRbblo,
+.avatarHoverTarget-1zzfRL,
+.compactButton-3hG-bs,
+.compactButtonDisabled-MwB2d6 {
   border-radius: var(--roundness);
 }
 .controlButton-2PMNom > svg > foreignObject,
-.callAvatarMaskContainer-2Uwued > svg > foreignObject {
+.callAvatarMaskContainer-2Uwued > svg > foreignObject,
+.avatarHint-k7pYop > foreignObject {
   mask: none;
 }
 /* Square activity status mask */
@@ -2689,10 +2728,10 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
   width: 16px;
 }
 .wrapper-3Un6-K > svg > rect {
-  x: 66;
-  y: 66;
-  width: 18px;
-  height: 18px;
+  x: 102;
+  y: 102;
+  width: 22px;
+  height: 22px;
   stroke-width: 2,5px;
   stroke: var(--background-secondary-alt);
 }
