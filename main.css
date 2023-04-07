@@ -666,18 +666,22 @@
 .bd-toast {
   color: var(--sec);
   background-color: var(--bg3);
+  border-radius: var(--roundness);
 }
 .bd-toast.toast-success.icon {
   background-color: var(--sec);
   color: var(--bg2);
+  border-radius: var(--roundness);
 }
 .theme-dark .tooltipGreen-oouJdx {
   color: var(--sec);
   background-color: var(--bg3);
+  border-radius: var(--roundness);
 }
 
 .theme-dark .tooltipGreen-oouJdx .tooltipPointer-3L49xb {
   background-color: var(--bg3);
+  border-radius: var(--roundness);
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
   color: var(--bg);
@@ -800,6 +804,15 @@
 }
 .header-S26rhB {
   background-color: var(--bg);
+}
+.button-3Vyz67  {
+  border-radius: var(--roundness);
+  background-color: var(--bg2);
+  color: var(--third);
+}
+.button-3Vyz67:hover {
+  background-color: var(--bg3);
+  color: var(--sec);
 }
 .activity-2M3PRB {
   background-color: var(--bg);
@@ -2255,7 +2268,9 @@ button[aria-label="Send a gift"] {
   border-radius: var(--roundness);
   background-color: var(--bg);
 }
-.sourceThumbnail-ERDcZE {
+.sourceThumbnail-ERDcZE,
+.theme-dark .tooltip-33Jwqe,
+.theme-light .tooltip-33Jwqe {
   border-radius: var(--roundness);
 }
 .tile-3POX2m:hover .sourceThumbnail-ERDcZE {
