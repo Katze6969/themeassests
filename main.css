@@ -562,13 +562,20 @@
 .divider-2xk5N2, .tabBar-2WhZ9G .tab-2Jo-cu, .title-10Au0i {
   color: var(--third);
 }
-.heading-xl-bold-38fuFv, .heading-xl-semibold-3E1dYv {
+.heading-xl-bold-38fuFv,
+.heading-xl-semibold-3E1dYv,
+.tipTitle-3FYEQp {
   color: var(--third);
 }
-.icon-mJhEWn {
+.icon-mJhEWn,
+.tip-1AwED_ {
   color: var(--sec);
 }
-.container-18GwIk, .header-3_zmOb {
+.container-18GwIk,
+.header-3_zmOb,
+.searchBox-pyIJJj,
+.focusRing-2_fyOA,
+.focus-rings-ring {
   border-radius: var(--roundness);
 }
 .container-2c4_8A {
