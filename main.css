@@ -2489,6 +2489,9 @@ button[aria-label="Send a gift"] {
 .colorDefault-2_rLdz:active:not(.hideInteraction-1vQrZJ) {
   background-color: var(--bg2);
 }
+.soundButtonInteractive-3ujugW.playing-16rHcH {
+  border-color: var(--sec);
+}
 .badge-370Op6,
 .status-1ZXjSF,
 .slash-2yrR11,
