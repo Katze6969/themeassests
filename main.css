@@ -2473,8 +2473,14 @@ button[aria-label="Send a gift"] {
 .filename-3A5bVl,
 .themed-1LCNAV .textLeft-1Noen0,
 .themed-1LCNAV .textRight-2IW704,
-.settingsClickArea-1vKB0J {
+.settingsClickArea-1vKB0J,
+.channelIcon-3Oew8h,
+.peopleIcon-1zv5D6 {
   color: var(--sec);
+}
+.listDefault-2F-w65 .clickable-1ctZ-H:hover .username-vAneIW,
+.popoutText-3NRmTw {
+  color: var(--third);
 }
 .pencilIcon-z04-c5 > path  {
   color: var(--bg);
@@ -2485,7 +2491,9 @@ button[aria-label="Send a gift"] {
 }
 .badge-370Op6,
 .status-1ZXjSF,
-.slash-2yrR11 {
+.slash-2yrR11,
+.headerLink-1hmZgL,
+.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .username-vAneIW {
   color: var(--third);
 }
 .top-Ktfr_T .item-2GWPIy {
@@ -2504,10 +2512,21 @@ button[aria-label="Send a gift"] {
 .activeIcon-1ykRnF > circle {
   fill: var(--sec);
 }
+.container-1QtPKm .slider-HJFN2i rect {
+  rx: 0;
+}
 .categoryItemDefaultCategory-3haEDq,
 .premiumPromo-1eKAIB,
 .userProfileOuter-2tQwNf,
-.categoryIcon-jiMNyP {
+.categoryIcon-jiMNyP,
+.container-8Futzw,
+.container-3MQTjc,
+.content-1Tgc42,
+.avatar-3jcVeZ,
+.container-1QtPKm,
+.input-125oad,
+.appAvatar-2htirv,
+.card-2guEcY {
   border-radius: var(--roundness);
 }
 .bd-notice {
