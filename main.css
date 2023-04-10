@@ -575,7 +575,12 @@
 .header-3_zmOb,
 .searchBox-pyIJJj,
 .focusRing-2_fyOA,
-.focus-rings-ring {
+.focus-rings-ring,
+.video-2HW4jD,
+.wrapper-1FP9YQ,
+.searchFilter-2UfsDk,
+.searchAnswer-23w-CH,
+.search-2Mwzzq .DraftEditor-root .DraftEditor-editorContainer {
   border-radius: var(--roundness);
 }
 .container-2c4_8A {
@@ -645,7 +650,9 @@
 .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
   background-color: var(--links);
 }
-.defaultColor-2cKwKo {
+.defaultColor-2cKwKo,
+.searchAnswer-23w-CH,
+.searchFilter-2UfsDk {
   color: var(--sec);
 }
 .connectedAccountNameText-3VHIcl[style*="color:"] {
