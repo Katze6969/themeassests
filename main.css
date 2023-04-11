@@ -42,7 +42,10 @@
 .userProfileInner-1ngKnf {
   border-radius: var(--roundness);
 }
-.attachment-1PZZB2.newMosaicStyle-35X6XO {
+.attachment-1PZZB2,
+.voiceSectionGuildImage-TctMOd,
+.voiceSectionNoGuildImageWrapper-17kLyh,
+.voiceSectionAssets-1dg-E5 {
   border-radius: var(--roundness);
 }
 .bg-1QIAus {
@@ -2604,6 +2607,10 @@ button[aria-label="Send a gift"] {
   border-radius: var(--roundess);
   border-color: var(--third);
 }
+.partyMemberOverflow-3G1oZz {
+  border-radius: var(--roundness);
+  color: var(--sec);
+}
 .bd-notice-button:hover {
   background-color: var(--third);
   color: var(--bg3);
@@ -2616,6 +2623,22 @@ button[aria-label="Send a gift"] {
 .userPopoutInner-nv9Y92 > svg > mask {
   display: none;
 }
+.partyMemberKnown-14FmlH.partyMember-YLjOa7 {
+    mask:none;
+    -webkit-mask: none;
+}
+.mask-1y0tyc foreignObject {
+    mask: none;
+}
+.voiceSectionAssets-1dg-E5,
+.voiceSectionGuildImage-TctMOd {
+    border-radius: 0;
+}
+
+.voiceSectionGuildImage-TctMOd {
+    -webkit-mask: unset;
+    mask: unset;
+}
 .graphicSecondary-37AA_Y > div > svg > foreignObject,
 .wrapper-2PSQCG > svg > foreignObject,
 .iconContainerLeft-1Kr6X4 > svg > foreignObject,
@@ -2625,7 +2648,8 @@ button[aria-label="Send a gift"] {
 .wrapper-3Ivhtz > svg > foreignObject,
 .bannerSVGWrapper-2CLfzN > foreignObject,
 .bannerSVGWrapper-2CLfzN > foreignObject > div,
-.mask-1hlQQ6 > foreignObject {
+.mask-1hlQQ6 > foreignObject,
+.voiceSectionAssets-1dg-E5 > img {
   mask: none;
 }
 .item-2LIpTv,
