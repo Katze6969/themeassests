@@ -2544,7 +2544,8 @@ button[aria-label="Send a gift"] {
   color: var(--sec);
 }
 .listDefault-2F-w65 .clickable-1ctZ-H:hover .username-vAneIW,
-.popoutText-3NRmTw {
+.popoutText-3NRmTw,
+.listRow-2nO1T6 {
   color: var(--third);
 }
 .pencilIcon-z04-c5 > path  {
@@ -2595,7 +2596,9 @@ button[aria-label="Send a gift"] {
 .input-125oad,
 .appAvatar-2htirv,
 .card-2guEcY,
-.bd-notice:first-child {
+.bd-notice:first-child,
+.iconActiveMedium-27_R5B,
+.listRow-2nO1T6 {
   border-radius: var(--roundness);
 }
 .bd-notice {
