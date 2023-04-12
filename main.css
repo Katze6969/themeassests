@@ -2672,8 +2672,15 @@ button[aria-label="Send a gift"] {
 .multipleIconWrapper-2YHnS6,
 .reaction-3vwAF2,
 .pencilContainer-18TrEJ,
-.overlayBackground-2aa7wt {
+.overlayBackground-2aa7wt,
+.section-3G9aLW:first-child,
+.section-3G9aLW:last-child,
+.applicationStreamingPreviewWrapper-7j27t8 {
   border-radius: var(--roundness);
+}
+.applicationStreamingHoverText-ETJLXZ {
+  border-radius: var(--roundness);
+  color: var(--third);
 }
 .base-3IDx3L {
   color: var(--bg3);
@@ -2932,3 +2939,4 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
     background: url("https://katze6969.github.io/themeassests/path.svg");
     background-position: center;
 }
+/*
