@@ -39,7 +39,8 @@
 }
 .hoverButtonGroup-2yZIzC,
 .userPopoutInner-nv9Y92:before,
-.userProfileInner-1ngKnf {
+.userProfileInner-1ngKnf,
+.avatar-3TrM7c {
   border-radius: var(--roundness);
 }
 .attachment-1PZZB2,
@@ -181,7 +182,8 @@
 .container-YkUktl .button-12Fmur:nth-child(4) .contents-3ca1mk path {
   fill: var(--sec);
 }
-.emojiButton-1fMsf3 .sprite-2lxwfc{
+.emojiButton-1fMsf3 .sprite-2lxwfc,
+.emojiButton-2Z3krv >  div > div {
     filter:unset !important;
     background:url('https://cdn.discordapp.com/emojis/1068578470017372311.webp?size=80&quality=lossless') center/100% no-repeat !important;
 }
@@ -2475,7 +2477,8 @@ button[aria-label="Send a gift"] {
 .avatar-3FKimL,
 .listContainer-2jDYAs,
 .picker-20lcBA,
-.soundButton-2P2Ua2 {
+.soundButton-2P2Ua2,
+.liveShapeRound-2Tgi2d {
   border-radius: var(--roundness);
 }
 .lookOutlined-3RTC7c.colorGreen-jIPCAS {
@@ -2929,27 +2932,3 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
     background: url("https://katze6969.github.io/themeassests/path.svg");
     background-position: center;
 }
-*/*
-html {
-    transform: rotate(180deg);
-}
-.container-1eFtFS,
-.content-1SgpWY,
-.content-1jQy2l,
-.container-ZMc96U.themed-Hp1KC_,
-.toolbar-3_r2xA {
-    flex-direction: row-reverse;
-}
-.unreadMentionsIndicatorBottom-3RJMnQ,
-.unreadMentionsBar-ZXXoOH:before {
-  display: none;
-}
-
-.messageContent-2t3eCI {
--moz-transform: scale(-1, -1);
--webkit-transform: scale(-1, -1);
--o-transform: scale(-1, -1);
--ms-transform: scale(-1, -1);
-transform: scale(-1, -1);
-}
-*/*
