@@ -2479,7 +2479,9 @@ button[aria-label="Send a gift"] {
 .picker-20lcBA,
 .soundButton-2P2Ua2,
 .liveShapeRound-2Tgi2d,
-.attachment-1PZZB2.newMosaicStyle-35X6XO {
+.attachment-1PZZB2.newMosaicStyle-35X6XO,
+.assetsSmallImage-2JNB1y,
+.assetsLargeImage-8U5dlz {
   border-radius: var(--roundness);
 }
 .lookOutlined-3RTC7c.colorGreen-jIPCAS {
@@ -2630,7 +2632,10 @@ button[aria-label="Send a gift"] {
 .userPopoutInner-nv9Y92 > svg > mask {
   display: none;
 }
-.partyMemberKnown-14FmlH.partyMember-YLjOa7 {
+.partyMemberKnown-14FmlH.partyMember-YLjOa7,
+.assetsLargeMaskActivityFeed-1IwNdL,
+.assetsLargeMaskProfile-9q3P0C,
+.assetsLargeMaskProfileV2-23iq8Y {
     mask:none;
     -webkit-mask: none;
 }
