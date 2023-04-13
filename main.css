@@ -2478,7 +2478,8 @@ button[aria-label="Send a gift"] {
 .listContainer-2jDYAs,
 .picker-20lcBA,
 .soundButton-2P2Ua2,
-.liveShapeRound-2Tgi2d {
+.liveShapeRound-2Tgi2d,
+.attachment-1PZZB2.newMosaicStyle-35X6XO {
   border-radius: var(--roundness);
 }
 .lookOutlined-3RTC7c.colorGreen-jIPCAS {
@@ -2939,4 +2940,3 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
     background: url("https://katze6969.github.io/themeassests/path.svg");
     background-position: center;
 }
-/*
