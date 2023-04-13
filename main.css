@@ -1735,8 +1735,15 @@ button[aria-label="Send a gift"] {
 .theme-dark .option-2KkUJO:after {
   background: transparent;
 }
-.textContent-TsKzji {
-  color: var(--third);
+.textContent-TsKzji,
+.title-3sFEQD,
+.title-27qTOX,
+.barText-1eIsLx,
+.unreadIcon-3dqgX9 {
+  color: var(--third) !important;
+}
+.bar-wDIGjg {
+  border-radius: var(--roundness);
 }
 .categoryItemDefaultCategorySelected-2YeRUu .categoryIcon-2cYeku,
 .categoryItemDefaultCategorySelected-2YeRUu:hover .categoryIcon-2cYeku,
