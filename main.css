@@ -884,7 +884,8 @@
 .attachmentName-vgRpzs:hover,
 .openFullPreviewSection-31zc2v:hover,
 .formattedSize-1YbZww:hover,
-.discriminator-hnHkyt {
+.discriminator-hnHkyt,
+.mainChannelInfo-3I-_7Y .title-1xszmS {
   color: var(--third);
 }
 .tableTitle-2Amyqt {
@@ -2500,7 +2501,8 @@ button[aria-label="Send a gift"] {
 .theme-dark .tooltip-33Jwqe, .theme-light .tooltip-33Jwqe,
 .pro-3GwLMX,
 .title-NjUt5y,
-.heading-xxl-extrabold-2-MUEs {
+.heading-xxl-extrabold-2-MUEs,
+.mainChannelInfo-3I-_7Y .title-1xszmS {
   color: var(--third) !important;
 }
 .theme-dark .activityProfile-1712BN .activityName-3YXl6e, .theme-dark .activityProfile-1712BN .content-tXPNDw, .theme-dark .activityProfile-1712BN .details-2-ciHo, .theme-dark .activityProfile-1712BN .name-1-Q7l2, .theme-dark .activityProfile-1712BN .nameNormal-2fPMD2, .theme-dark .activityProfile-1712BN .nameWrap-3TyM52, .theme-dark .activityProfileV2-1N7pee .activityName-3YXl6e, .theme-dark .activityProfileV2-1N7pee .content-tXPNDw, .theme-dark .activityProfileV2-1N7pee .details-2-ciHo, .theme-dark .activityProfileV2-1N7pee .name-1-Q7l2, .theme-dark .activityProfileV2-1N7pee .nameNormal-2fPMD2, .theme-dark .activityProfileV2-1N7pee .nameWrap-3TyM52, .theme-dark .activityUserPopout-2MzGCj .activityName-3YXl6e, .theme-dark .activityUserPopout-2MzGCj .content-tXPNDw, .theme-dark .activityUserPopout-2MzGCj .details-2-ciHo, .theme-dark .activityUserPopout-2MzGCj .name-1-Q7l2, .theme-dark .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .theme-dark .activityUserPopout-2MzGCj .nameWrap-3TyM52, .theme-dark .activityUserPopoutV2-3eKqzY .activityName-3YXl6e, .theme-dark .activityUserPopoutV2-3eKqzY .content-tXPNDw, .theme-dark .activityUserPopoutV2-3eKqzY .details-2-ciHo, .theme-dark .activityUserPopoutV2-3eKqzY .name-1-Q7l2, .theme-dark .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2, .theme-dark .activityUserPopoutV2-3eKqzY .nameWrap-3TyM52, .theme-light .activityProfile-1712BN .activityName-3YXl6e, .theme-light .activityProfile-1712BN .content-tXPNDw, .theme-light .activityProfile-1712BN .details-2-ciHo, .theme-light .activityProfile-1712BN .name-1-Q7l2, .theme-light .activityProfile-1712BN .nameNormal-2fPMD2, .theme-light .activityProfile-1712BN .nameWrap-3TyM52, .theme-light .activityProfileV2-1N7pee .activityName-3YXl6e, .theme-light .activityProfileV2-1N7pee .content-tXPNDw, .theme-light .activityProfileV2-1N7pee .details-2-ciHo, .theme-light .activityProfileV2-1N7pee .name-1-Q7l2, .theme-light .activityProfileV2-1N7pee .nameNormal-2fPMD2, .theme-light .activityProfileV2-1N7pee .nameWrap-3TyM52, .theme-light .activityUserPopout-2MzGCj .activityName-3YXl6e, .theme-light .activityUserPopout-2MzGCj .content-tXPNDw, .theme-light .activityUserPopout-2MzGCj .details-2-ciHo, .theme-light .activityUserPopout-2MzGCj .name-1-Q7l2, .theme-light .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .theme-light .activityUserPopout-2MzGCj .nameWrap-3TyM52, .theme-light .activityUserPopoutV2-3eKqzY .activityName-3YXl6e, .theme-light .activityUserPopoutV2-3eKqzY .content-tXPNDw, .theme-light .activityUserPopoutV2-3eKqzY .details-2-ciHo, .theme-light .activityUserPopoutV2-3eKqzY .name-1-Q7l2, .theme-light .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2, .theme-light .activityUserPopoutV2-3eKqzY .nameWrap-3TyM52,
@@ -2721,7 +2723,8 @@ button[aria-label="Send a gift"] {
 .iconActiveMedium-27_R5B,
 .listRow-2nO1T6,
 .activitySectionAssets-1wpe42 .largeImage-2EIggm,
-.activitySectionAssets-1wpe42 .smallImage-m2dwC4 {
+.activitySectionAssets-1wpe42 .smallImage-m2dwC4,
+.root-1e2tfc {
   border-radius: var(--roundness);
 }
 .bd-notice {
