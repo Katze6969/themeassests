@@ -750,10 +750,12 @@
   color: var(--sec);
 }
 .removeAttachmentHoverButton-3gHROs:hover,
-.removeAttachmentHoverButton-3gHROs:active {
+.removeAttachmentHoverButton-3gHROs:active,
+.lookFilled-1H2Jvj.colorBrandNew-abZT3v:hover {
   background-color: var(--bg3);
 }
-.removeAttachmentHoverButton-3gHROs {
+.removeAttachmentHoverButton-3gHROs,
+.lookFilled-1H2Jvj.colorBrandNew-abZT3v {
   background-color: var(--bg2);
 }
 .removeAttachmentHoverButton-3gHROs:hover, .keyboard-mode .removeAttachmentHoverButton-3gHROs:focus {
@@ -1909,42 +1911,98 @@ button[aria-label="Send a gift"] {
 .pictureInPictureWindow-3ms5Zy,
 .baseShapeRoundLeft-heLrHp,
 .liveShapeRoundRight-1ifBrO,
-.liveIndicator-3bhXBF {
+.liveIndicator-3bhXBF,
+.inviteRow-3vmB7i,
+.checkboxContainer-yVbwWS,
+.previewContainer-1GxmBJ,
+.perks-2IIbWQ,
+.actions-10aT1z,
+.upsellFooter-1H_OCF,
+.perksList-34peAu,
+.planOptionDiscount-2nex9n,
+.tierHeaderWithoutCardBody-1iT8o_,
+.placeholderCard-3eGmb3,
+.tier-3CS7-p,
+.tierHeader-3q9jIw,
+.tierBody-1d3UiS,
+.soundEdit-CkQLWe,
+.copyInput-3AbKWB,
+.actionContainer-EzNGrb,
+.ruleIconContainer-dXW56-,
+.featureCard-3XHbjy,
+.card-ErWTld,
+.messageBlock-3K-P-A,
+.howItWorksContainer-3ZDRIG,
+.earningsPreviewContainer-2I6S8Z,
+.avatarCard-1N47yx,
+.card-3ie2dy,
+.button-1yVL_7,
+.upsellTooltipWrapper-1wqikQ {
   border-radius: var(--roundness) !important;
 }
-.profileBanner-2zIsK7 .pencilContainer-11Kuga, .profileBannerPremium-3xIFwS .pencilContainer-11Kuga {
+.profileBanner-2zIsK7 .pencilContainer-11Kuga, .profileBannerPremium-3xIFwS .pencilContainer-11Kuga,
+.container-2oNtJn,
+.lookInverted-2GrLaB.colorBrand-2M3O3N {
   background-color: transparent;
 }
 .accountProfileCard-lbN7n-,
 .messageInputContainer-24qqTx {
   border-radius: var(--roundness);
 }
-.messageInputContainer-24qqTx {
+.icon-2TbMdT,
+.icon-2TbMdT:hover,
+.planOptionDiscount-2nex9n,
+.upsellTooltipWrapper-1wqikQ {
+  background-color: var(--bg3);
+}
+.icon-2TbMdT.disabled-2gUzwG, .icon-2TbMdT.disabled-2gUzwG:hover,
+.lookInverted-2GrLaB.colorBrand-2M3O3N:hover {
+  background-color: var(--bg2);
+}
+.messageInputContainer-24qqTx,
+.lookFilled-1H2Jvj.colorGreen-jIPCAS {
   border: 1px solid var(--sec);
 }
 .username-3JLfHz,
 .discriminator-2m-MqL,
 .discriminator-3_S3CG,
 .eyebrow-1Shfyi,
-.headerTagDiscriminatorNoNickname-dfcvHa {
+.headerTagDiscriminatorNoNickname-dfcvHa,
+.textContainer-13mOcB > span,
+.headerText-2XASja,
+.header-1ffhsl > h1,
+.perkDescription-3e1T_w,
+.activeBreadcrumb-2xVic0,
+.planSelectorSubtotal-1A7sWH,
+.pricePerInterval-3PUiOj strong,
+.planOptionInterval-3QyrC0,
+.selectPlanChooseTitle-2d61LF,
+.optionSelected-2AMHHJ,
+.tierTitle-kGI87L > h3,
+.tierDefaultUnlocked-3WrGn5 > div,
+.featuredText-1kAYlq, .infoIcon-QtHJ1h,
+.ctaContent-3svcIf > h2,
+.perkTitle-1GQnag,
+.tierTitle-kGI87L {
   color: var(--third) !important;
 }
-.description-foE_WP, .labelDescriptor-2top7R {
-  color: var(--sec);
+.guildCardQuote-2c70-X > div  {
+  color: var(--sec) !important;
 }
-.peopleList-2VBrVI,
-.container-ZMc96U.themed-Hp1KC_,
-.peopleColumn-1wMU14,
-.scroller-WSmht3,
-.searchBar-3TnChZ,
-.activityPanel-9icbyU,
-.container-YkUktl,
-.scroller-kQBbkU {
-  background-color: var(--bg);
-}
-.theme-dark .children-3xh0VB:after {
-  background: var(--bg);
-}
+.description-foE_WP, .labelDescriptor-2top7R,
+.bodyText-1qcdxO,
+.planSelectorLabel-2T9D_0,
+.planSelectorPreviewPrice-3is8Gl,
+.upsellFooter-1H_OCF,
+.pricePerInterval-3PUiOj,
+.bodyText-3Op3yx,
+.planOption-187LtR,
+.totalLabel-2RGUEh,
+.descriptionRow-1UPN0d,
+.guildCardQuote-2c70-X,
+.perkDescription--074QX,
+.previousPerks-2h1eyr,
+.discriminator-1_98cY
 .icon-2xnN2Y,
 .username-Qpc78p,
 .title-17SveM,
@@ -1960,8 +2018,28 @@ button[aria-label="Send a gift"] {
 .discriminator-WV5K5s,
 .title-338goq,
 .hovered-20u3oh,
-.customStatus-1UAQAK {
+.customStatus-1UAQAK,
+.guildNick-fe8oPN {
   color: var(--sec);
+}
+.peopleList-2VBrVI,
+.container-ZMc96U.themed-Hp1KC_,
+.peopleColumn-1wMU14,
+.scroller-WSmht3,
+.searchBar-3TnChZ,
+.activityPanel-9icbyU,
+.container-YkUktl,
+.scroller-kQBbkU,
+.header-JUTO-g,
+.titleContainer-3fPic2 {
+  background-color: var(--bg);
+}
+.theme-dark .children-3xh0VB:after {
+  background: var(--bg);
+}
+.contents-3NembX > span,
+.message-3C6JQ1 {
+  color: var(--sec) !important;
 }
 .input-2m5SfJ,
 .medium-2NClDM.iconLayout-3Bjizv {
@@ -1992,7 +2070,8 @@ button[aria-label="Send a gift"] {
 }
 .search-2Mwzzq,
 .DraftEditor-root,
-.public-DraftEditorPlaceholder-root {
+.public-DraftEditorPlaceholder-root,
+.memberRow-1FhJgR {
   border-radius: var(--roundness);
 }
 .discordIcon-JXet1k {
@@ -2012,13 +2091,36 @@ button[aria-label="Send a gift"] {
 .scroller-kQBbkU::-webkit-scrollbar-thumb {
    border-radius: var(--roundness);
 }
-.scrollerBase-1Pkza4::-webkit-scrollbar-track {
+.scrollerBase-1Pkza4::-webkit-scrollbar-track,
+.roleRow-230vCm,
+.container-3EtAkD,
+.container-20TyK0,
+.colorPickerSwatch-RTUGRR.custom-1Up2lr,
+.colorPickerSwatch-RTUGRR.default-3ISV7m,
+.colorPickerSwatch-RTUGRR,
+.previewContainer-1xQAsw,
+.container-1ERits,
+.item-1Mjtru,
+.imageUploaderInner-IIRaFr {
   border-radius: var(--roundness);
 }
-.divider-D-Vspq {
+.checkbox-1LuCGM {
+  background-color: var(--bg3) !important;
+}
+.divider-D-Vspq,
+.notice-3GY7Hk {
   background-color: var(--sec);
 }
-.actionButton-3-B2x- {
+.button-29sJG8:hover,
+.imageUploaderAcronym-2JJw9B {
+  background: var(--third);
+}
+.notice-3GY7Hk,
+.contents-3NembX.buttonInner-2Y5lnd{
+  color: var(--bg3) !important;
+}
+.actionButton-3-B2x-,
+.roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) .circleButton-2Yr5A1 {
   color: var(--sec);
   background-color: var(--bg);
   border-radius: var(--roundness);
@@ -2038,7 +2140,8 @@ button[aria-label="Send a gift"] {
 .selected-1-Z6gm .layout-1qmrhw {
   background-color: var(--bg2);
 }
-.flairContainer-xF7I3K {
+.flairContainer-xF7I3K,
+.imageUploaderHint-33zkjZ {
   color: var(--sec);
 }
 .searchBar-3TnChZ .searchBarComponent-3N7dCG {
@@ -2283,7 +2386,12 @@ button[aria-label="Send a gift"] {
 .status-15kcmy,
 .wrapper-3mYmFS.ringingIncoming-fibTw-:after,
 .wrapper-3mYmFS.ringingOutgoing-1NjfRn:after,
-.icon-39rdLt {
+.icon-39rdLt,
+.radioBar-1XgZqD,
+.radioBar-1XgZqD.radioPositionLeft-27wZ8M,
+.item-1TA5qI,
+.avatarUploaderInnerSquare-2J8lU8,
+.button-1_oXub {
   border-radius: var(--roundness);
 }
 .border-2Vy6FN.speaking-7QZEkv {
