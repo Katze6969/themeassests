@@ -40,8 +40,7 @@
 .hoverButtonGroup-2yZIzC,
 .userPopoutInner-nv9Y92:before,
 .userProfileInner-1ngKnf,
-.avatar-3TrM7c,
-.newMessagesBar-1hF-9G {
+.avatar-3TrM7c {
   border-radius: var(--roundness);
 }
 .attachment-1PZZB2,
@@ -1862,7 +1861,8 @@ button[aria-label="Send a gift"] {
 .userProfileOuter-1K_BYU,
 .userProfileInner-3F03PX,
 .userPanelOverlayBackground-3xwDMp, .userProfileModalOverlayBackground-8p3-eU,
-.friendRequestsButton-77veU7 {
+.friendRequestsButton-77veU7,
+.newMessagesBar-1hF-9G {
   border-radius: var(--roundness);
 }
 .focus-rings-ring {
@@ -1873,8 +1873,9 @@ button[aria-label="Send a gift"] {
   color: var(--sec);
 }
 .additionalActionsIcon-1IPuHI:hover,
-.friendRequestsButton-77veU7:hover {
-  color: var(--third);
+.friendRequestsButton-77veU7:hover,
+#outdated-plugins > span {
+  color: var(--third) !important;
 }
 .memberSinceContainer-3biwiY .defaultColor-1EVLSt,
 .text-xs-medium-311pdh, .text-xs-normal-3O7EaX {
@@ -3067,3 +3068,4 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
     background: url("https://katze6969.github.io/themeassests/path.svg");
     background-position: center;
 }
+
