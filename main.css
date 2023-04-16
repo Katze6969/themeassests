@@ -261,7 +261,11 @@
   border-radius: var(--roundness);
 }
 .side-2ur1Qk .item-3XjbnG,
-.button-cfOvv-{
+.button-cfOvv-,
+.mediaBarInteractionVolume-zGrOSh,
+.mediaBarGrabber-FvJKJg,
+.fakeEdges-18N907:before,
+.fakeEdges-18N907:after {
   border-radius: var(--roundess);
 }
 .button-cfOvv- {
@@ -3068,4 +3072,3 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
     background: url("https://katze6969.github.io/themeassests/path.svg");
     background-position: center;
 }
-
