@@ -2404,7 +2404,8 @@ button[aria-label="Send a gift"] {
 .playButtonContainer-2F2cAR,
 .ripple-FNGiLO,
 .rippleContainer-3ZCne6,
-.container-BetterVolume {
+.container-BetterVolume,
+.stickerCategory-2f6iSo{
   border-radius: var(--roundness);
 }
 
@@ -2437,7 +2438,8 @@ button[aria-label="Send a gift"] {
   d: path("M 4.798 3 L 3 3 V 17.4 L 4.798 17.4 H 7.4981 V 22 L 13 17.4 H 19.198 L 21 17.4 V 4.8 L 21 3 H 4.798 Z");
 }
 .input-BetterVolume,
-.customItem-1KYL7t {
+.customItem-1KYL7t,
+.stickerCategoryGenericSelected-DnO2K8 .stickerCategoryGenericIcon-3wumVD {
   color: var(--sec);
 }
 .colorDefault-2_rLdz .checkbox-397WsK,
