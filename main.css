@@ -2405,7 +2405,9 @@ button[aria-label="Send a gift"] {
 .ripple-FNGiLO,
 .rippleContainer-3ZCne6,
 .container-BetterVolume,
-.stickerCategory-2f6iSo{
+.stickerCategory-2f6iSo,
+.toolbar-37BrJ5,
+.bar-H6j3_Q {
   border-radius: var(--roundness);
 }
 
@@ -2436,6 +2438,12 @@ button[aria-label="Send a gift"] {
 }
 .icon-1WVg4I:has(path[d^="M4.79805"]) > path {
   d: path("M 4.798 3 L 3 3 V 17.4 L 4.798 17.4 H 7.4981 V 22 L 13 17.4 H 19.198 L 21 17.4 V 4.8 L 21 3 H 4.798 Z");
+}
+[d='M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2zm0-6c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2zm0-6c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2z'] {
+    d: path('m14 4H10V8h4v0Zm0 12H10v4h4v-3Zm0-6H10v4h4v-4Z');
+}
+.statusItem-38ArJn {
+  padding: 4px;
 }
 .input-BetterVolume,
 .customItem-1KYL7t,
