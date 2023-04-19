@@ -2461,7 +2461,8 @@ button[aria-label="Send a gift"] {
 .gameIcon-1mDo1J,
 .checkbox-1LuCGM,
 .profileBadges-2pItdR,
-.avatarWrapper-eenWra {
+.avatarWrapper-eenWra,
+.unreadPill-3nEWYM {
   border-radius: var(--roundness);
 }
 .avatarWrapperNormal-ahVUaC:hover .avatarDecorationHint-3n-p6O, .avatarWrapperNormal-ahVUaC:hover .avatarHint-k7pYop > foreignObject {
