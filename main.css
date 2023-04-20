@@ -2792,7 +2792,8 @@ button[aria-label="Send a gift"] {
 .button-3bklZh[aria-label="Add Super Reaction"],
 .colorPremiumGradient-38tGFG.focused-3LIdPu, .colorPremiumGradient-38tGFG:active:not(.hideInteraction-1vQrZJ),
 .colorPremiumGradient-38tGFG,
-.reactionBtn-3I19bq:has(path[d^="M20.3397 14.2379C21.2318"]) {
+.reactionBtn-3I19bq:has(path[d^="M20.3397 14.2379C21.2318"]),
+.iconWrapper-2awDjA[aria-label="Show User Profile"] {
   display: none;
 }
 .radioBar-1XgZqD.radioPositionLeft-27wZ8M > div > svg > circle {
@@ -2911,7 +2912,8 @@ button[aria-label="Send a gift"] {
   border-radius: 0px 0px 0 0;
   background-color: var(--bg);
 }
-.actionButton-3-B2x-.actionDeny-1pQVuZ:hover {
+.actionButton-3-B2x-.actionDeny-1pQVuZ:hover,
+.actionButton-3-B2x-.actionAccept-2nmnLv:hover {
   color: var(--bg2);
 }
 .addFriendInputWrapper-kkoSV9:focus-within {
