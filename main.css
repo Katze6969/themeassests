@@ -2472,7 +2472,9 @@ button[aria-label="Send a gift"] {
 .unreadPill-3nEWYM,
 .checkmark-bW9BK8,
 .px-MnE_OR.botTag-7aX5WZ,
-.mini-28oMa3 .grabber-3R-Rx9 {
+.mini-28oMa3 .grabber-3R-Rx9,
+.wrapperAudio-1Bzv_Z.newMosaicStyle-31sBoZ,
+.audioControls-3fmemK {
   border-radius: var(--roundness);
 }
 .avatarWrapperNormal-ahVUaC:hover .avatarDecorationHint-3n-p6O, .avatarWrapperNormal-ahVUaC:hover .avatarHint-k7pYop > foreignObject {
