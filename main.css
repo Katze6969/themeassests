@@ -2387,7 +2387,9 @@ button[aria-label="Send a gift"] {
 .pencilIcon-1d4fcw,
 .searchIcon-2Nw0OL,
 .smallPerkCardHeading-2TXRmn,
-.headerLabelCell-eG_2hU > h2 {
+.headerLabelCell-eG_2hU > h2,
+.activityTitleText-3LZ9o5,
+.text-lg-bold-4IOyS6 {
   color: var(--third) !important;
 }
 .header-1Uy0p6,
@@ -2474,7 +2476,11 @@ button[aria-label="Send a gift"] {
 .px-MnE_OR.botTag-7aX5WZ,
 .mini-28oMa3 .grabber-3R-Rx9,
 .wrapperAudio-1Bzv_Z.newMosaicStyle-31sBoZ,
-.audioControls-3fmemK {
+.audioControls-3fmemK,
+.activityItem-1Z9CTr,
+.activityTag-3C3YK5,
+.footer-3Gu_Tl,
+.theme-dark .friendSelected-3cwmD7 {
   border-radius: var(--roundness);
 }
 .avatarWrapperNormal-ahVUaC:hover .avatarDecorationHint-3n-p6O, .avatarWrapperNormal-ahVUaC:hover .avatarHint-k7pYop > foreignObject {
@@ -2812,6 +2818,9 @@ button[aria-label="Send a gift"] {
 .icon-18rqoe path {
   d: path("M21 20 16 15Q16 15 20 11L11 2Q7 6 7 6 7 6 2 11 11 20 11 20 11 20 15 16L22 23 23 22ZM11 18Q4 11 4 11 7 8 7 8 7 8 11 4 18 11 18 11 18 11 11 18 11 18 11 18Z");
 }
+.controlButton-2PMNom:has(path[d^="M4.92871 13.4149L10.5857 19.0709L18.3639 11.2927C19.7781 9.87859 22.6066 6.48376 21.1923 2.80748C17.5153 1.3932 14.1213 4.22173 12.7074 5.63625L4.92871 13.4149ZM16.064 9.93309C17.1686 9.93309 18.064 9.03766 18.064 7.93309C18.064 6.82852 17.1686 5.93309 16.064 5.93309C14.9594 5.93309 14.064 6.82852 14.064 7.93309C14.064 9.03766 14.9594 9.93309 16.064 9.93309Z"]) {
+  display: none;
+}
 .button-3bklZh[aria-label="Add Super Reaction"],
 .colorPremiumGradient-38tGFG.focused-3LIdPu, .colorPremiumGradient-38tGFG:active:not(.hideInteraction-1vQrZJ),
 .colorPremiumGradient-38tGFG,
@@ -2846,8 +2855,11 @@ button[aria-label="Send a gift"] {
 .channelRow-4X_3fi {
   background-color: var(--bg);
 }
+.scrollTierBackground-BnWR8k {
+  background-color: var(--bg) !important;
+}
 .pageBody-23bo4p {
-  background-color: var(--bg3);
+  background-color: var(--bg3) !important;
 }
 .button-2BMPJJ path {
   stroke-linecap: square;
