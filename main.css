@@ -2387,6 +2387,9 @@ button[aria-label="Send a gift"] {
 .theme-dark .content-FDHp32 p {
   color: var(--sec) !important;
 }
+.content-131fQL > label > div {
+  border-color: var(--sec);
+}
 .popout-TdhJ6Z > div,
 .pill-3pRQlO > div,
 .pencilIcon-1d4fcw,
@@ -2397,7 +2400,9 @@ button[aria-label="Send a gift"] {
 .text-lg-bold-4IOyS6,
 .title-2pQsrN,
 .perksHeading-3fBj-Y,
-.h3-3jj15Z {
+.h3-3jj15Z,
+.headerText-35XLOt,
+.headerGuildName-3D4fzU {
   color: var(--third) !important;
 }
 .header-1Uy0p6,
@@ -2407,17 +2412,42 @@ button[aria-label="Send a gift"] {
   border-bottom-left-radius: var(--roundness);
   background-color: var(--bg);
 }
-.checkmark-bW9BK8 {
+.theme-dark .pill-3pRQlO.selected-24z1Ou {
+  border-color: var(--third);
+}
+.checkmark-bW9BK8,
+.pinIcon-3I5-gm,
+.row-1qtctT:hover,
+.lookFilled-1H2Jvj.colorGreen-jIPCAS:disabled,
+.lookFilled-1H2Jvj.colorGreen-jIPCAS[aria-disabled=true]{
   background-color: var(--third);
 }
-.grid-21dB-S, .list-3FIpnh, .noListContainer-1Pa1Gf {
+.grid-21dB-S, .list-3FIpnh, .noListContainer-1Pa1Gf,
+.categoryPill-1zjNrr.selected-bLcqYK,
+.countContainer-3uQ087,
+.countContainer-3DOo5v {
   background-color: var(--bg3);
 }
-.container-2qVG6q {
+.container-2qVG6q,
+.container-3YcgdM,
+.container-2kTWmC {
   background-color: var(--bg);
 }
 .icon-2O29O0,
+.iconContainer-6xlTpK,
+.container-3kfp0r,
+.countContainer-3uQ087,
+.countContainer-3DOo5v,
+.row-1qtctT,
+.spinner-2bMWLW,
+.pulsingEllipsis-S-xTiX .item-2VgEex,
+.splashContainer-2PC_Bm,
+.optionContainer-yOpaLq,
+.guildIcon-uYC13g,
+.requirementContainer-1YZZty,
+.uploadInput-3fblkw,
 .container-3tKtM_,
+.categoryPill-1zjNrr,
 .menu-2TXYjN,
 .cameraWrapper-nG8dpo,
 .previewMessage-2g_aBv,
@@ -2481,6 +2511,7 @@ button[aria-label="Send a gift"] {
 .cardWrapper-1bSePP,
 .card-2xlCYc:hover,
 .gameIcon-1mDo1J,
+.pinIcon-3I5-gm,
 .checkbox-1LuCGM,
 .profileBadges-2pItdR,
 .avatarWrapper-eenWra,
@@ -2493,8 +2524,12 @@ button[aria-label="Send a gift"] {
 .activityItem-1Z9CTr,
 .activityTag-3C3YK5,
 .footer-3Gu_Tl,
+.reaction-102jx9,
 .theme-dark .friendSelected-3cwmD7,
 .bd-select,
+.container-2kTWmC,
+.addReactButton-3bSQb6,
+.buttonInner-3aRbcx,
 .featureBorder-2Jl8g4,
 .bd-select .bd-select-options,
 .bd-number-input,
@@ -2745,7 +2780,10 @@ button[aria-label="Send a gift"] {
 [d="M5.88657 21C5.57547 21 5.3399 20.7189 5.39427 20.4126L6.00001 17H2.59511C2.28449 17 2.04905 16.7198 2.10259 16.4138L2.27759 15.4138C2.31946 15.1746 2.52722 15 2.77011 15H6.35001L7.41001 9H4.00511C3.69449 9 3.45905 8.71977 3.51259 8.41381L3.68759 7.41381C3.72946 7.17456 3.93722 7 4.18011 7H7.76001L8.39677 3.41262C8.43914 3.17391 8.64664 3 8.88907 3H9.87344C10.1845 3 10.4201 3.28107 10.3657 3.58738L9.76001 7H15.76L16.3968 3.41262C16.4391 3.17391 16.6466 3 16.8891 3H17.8734C18.1845 3 18.4201 3.28107 18.3657 3.58738L17.76 7H21.1649C21.4755 7 21.711 7.28023 21.6574 7.58619L21.4824 8.58619C21.4406 8.82544 21.2328 9 20.9899 9H17.41L16.35 15H19.7549C20.0655 15 20.301 15.2802 20.2474 15.5862L20.0724 16.5862C20.0306 16.8254 19.8228 17 19.5799 17H16L15.3632 20.5874C15.3209 20.8261 15.1134 21 14.8709 21H13.8866C13.5755 21 13.3399 20.7189 13.3943 20.4126L14 17H8.00001L7.36325 20.5874C7.32088 20.8261 7.11337 21 6.87094 21H5.88657ZM9.41045 9L8.35045 15H14.3504L15.4104 9H9.41045Z"] {
   d: path("M 7.3 21 L 5.274 21 L 6 17 L 2.012 17 L 2.34 15 H 6.35 L 7.41 9 L 3.402 9 L 3.763 7 H 7.76 L 8.48 3 C 8.48 3.002 8.6466 3 8.8891 3 H 9.8734 C 10.1845 3 10.524 3 10.524 3 L 9.76 7 H 15.76 L 16.467 3 L 18.501 3 L 17.76 7 L 21.778 7 L 21.371 9 H 17.41 L 16.35 15 L 20.355 15 L 20 17 H 16 L 15.284 21 L 13.277 21 L 14 17 H 8 Z M 9.4105 9 L 8.3505 15 H 14.3504 L 15.4104 9 H 9.4105 Z");
 }
-[D="M33 34.5833V7.49998H35V36.6666H9C6.791 36.6666 5 34.801 5 32.5V7.49998C5 5.19894 6.791 3.33331 9 3.33331H31V30.4166H9C7.8955 30.4166 7 31.3485 7 32.5C7 33.6515 7.8955 34.5833 9 34.5833H33ZM23.9718 9.99998L15.8889 17.9915L12.7086 14.8441L10 17.5058L15.8885 23.3333L26.6667 12.6669L23.9718 9.99998Z"] {
+[d="M11 9H4C2.89543 9 2 8.10457 2 7V1C2 0.447715 1.55228 0 1 0C0.447715 0 0 0.447715 0 1V7C0 9.20914 1.79086 11 4 11H11C11.5523 11 12 10.5523 12 10C12 9.44771 11.5523 9 11 9Z"] {
+  d: path("M 12 9 H 4 L 2 7 V 0 H 0 V 8 L 3 11 H 12 Z");
+}
+[d="M33 34.5833V7.49998H35V36.6666H9C6.791 36.6666 5 34.801 5 32.5V7.49998C5 5.19894 6.791 3.33331 9 3.33331H31V30.4166H9C7.8955 30.4166 7 31.3485 7 32.5C7 33.6515 7.8955 34.5833 9 34.5833H33ZM23.9718 9.99998L15.8889 17.9915L12.7086 14.8441L10 17.5058L15.8885 23.3333L26.6667 12.6669L23.9718 9.99998Z"] {
   d: path("M 33 34.5833 V 7.5 H 35 V 36.6666 H 9 H 5 V 7.5 V 3.3333 H 31 V 30.4166 H 9 H 8 V 34.5833 H 33 Z M 23.9718 10 L 15.8889 17.9915 L 12.7086 14.8441 L 10 17.5058 L 15.8885 23.3333 L 26.6667 12.6669 L 23.9718 10 Z");
 }
 [d="M19.1 4V5.12659L4.85 8.26447V18.1176C4.85 18.5496 5.1464 18.9252 5.5701 19.0315L9.3701 19.9727C9.4461 19.9906 9.524 20 9.6 20C9.89545 20 10.1776 19.8635 10.36 19.6235L12.7065 16.5242L19.1 17.9304V19.0588H21V4H19.1ZM9.2181 17.9944L6.75 17.3826V15.2113L10.6706 16.0753L9.2181 17.9944Z"]  {
@@ -2808,8 +2846,14 @@ button[aria-label="Send a gift"] {
 [d="M10.889 4C10.889 3.44772 11.3367 3 11.889 3H12.1112C12.6635 3 13.1112 3.44772 13.1112 4V20C13.1112 20.5523 12.6635 21 12.1112 21H11.889C11.3367 21 10.889 20.5523 10.889 20V4Z"] {
   d: path("M10.889 4V3H13.1112V21H10.889Z");
 }
+[d="M21.707 13.293l-11-11C10.519 2.105 10.266 2 10 2H3c-.553 0-1 .447-1 1v7c0 .266.105.519.293.707l11 11c.195.195.451.293.707.293s.512-.098.707-.293l7-7c.391-.391.391-1.023 0-1.414zM7 9c-1.106 0-2-.896-2-2 0-1.106.894-2 2-2 1.104 0 2 .894 2 2 0 1.104-.896 2-2 2z"] {
+  d: path("M 22.5 14 L 11 2 H 2 V 10 L 14 22.5 Z M 7 9 H 5 V 5 H 9 V 9 Z");
+}
 [d="M6.44439 6.25C6.44439 5.69772 6.89211 5.25 7.44439 5.25H7.66661C8.2189 5.25 8.66661 5.69772 8.66661 6.25V17.75C8.66661 18.3023 8.2189 18.75 7.66661 18.75H7.44439C6.89211 18.75 6.44439 18.3023 6.44439 17.75V6.25Z"] {
   d: path("M6.4444 6.25V5.25H8.6666V18.75H6.4444Z");
+}
+[d="M13.2899 2H6C3.79086 2 2 3.79086 2 6V18C2 20.2091 3.79086 22 6 22H18C20.2091 22 22 20.2091 22 18V10.7101C21.3663 10.8987 20.695 11 20 11C16.134 11 13 7.86599 13 4C13 3.30503 13.1013 2.63371 13.2899 2ZM8 6C9.1032 6 10 6.8952 10 8C10 9.1056 9.1032 10 8 10C6.8944 10 6 9.1056 6 8C6 6.8952 6.8944 6 8 6ZM6 18L9 14L11 16L15 11L18 18H6Z"] {
+  d: path("M 14 2 H 6 H 2 V 18 V 22 H 18 H 22 V 10 L 14 10 Z M 8 6 H 10 V 10 H 6 V 6 Z M 6 18 L 9 14 L 11 16 L 15 11 L 18 18 H 6 Z");
 }
 [d="M3.22222 15.375C3.77451 15.375 4.22222 14.9273 4.22222 14.375L4.22222 9.625C4.22222 9.07272 3.77451 8.625 3.22222 8.625H3C2.44772 8.625 2 9.07272 2 9.625V14.375C2 14.9273 2.44772 15.375 3 15.375H3.22222Z"] {
   d: path("M3.2222 15.375H4.2222V8.625H2V14.375 15.375Z");
@@ -2914,10 +2958,12 @@ button[aria-label="Send a gift"] {
   display: none;
 }
 .button-3bklZh[aria-label="Add Super Reaction"],
+.reactionBtn-fVdJIx:has(path[d^="M20.3397 14.2379C21.2318 14.4731 22.1292 14.5474 23 14.4789C22.9906 14.5151 22.9809 14.5514 22.9711 14.5876C21.5194 19.9201 15.9496 23.086 10.5309 21.6569C10.3451 21.6079 10.1619 21.5542 9.98145 21.4958C7.94618 20.8378 5.90941 20 3.77041 20H3.5C2.67157 20 2 19.3284 2 18.5C2 17.6716 2.67157 17 3.5 17C4.75918 17 3.9661 15.8584 3.47514 14.7655C3.28101 14.3334 2.86615 14 2.39244 14H1.5C0.671573 14 0 13.3284 0 12.5C0 11.6716 0.671573 11 1.5 11V11C2.38174 11 3.10559 10.3274 3.33171 9.47516C3.33726 9.45427 3.34287 9.43338 3.34856 9.41249V9.41249C3.53406 8.7311 2.9812 8.0187 2.44976 7.55366C2.17543 7.31362 2 6.96872 2 6.5C2 5.67157 2.67157 5 3.5 5V5C5.03983 5 6.4765 4.31861 7.78941 3.51404C10.0926 2.10261 12.9612 1.59744 15.7887 2.34316C15.827 2.35324 15.8651 2.36352 15.9031 2.374C15.4064 3.08271 15.0224 3.88574 14.7831 4.76493C13.6598 8.89108 16.1476 13.1323 20.3397 14.2379ZM9.26206 8.71607C8.70747 8.56981 8.13976 8.79579 7.83448 9.23964C7.62045 9.55083 7.19184 9.86027 6.69655 9.72964C6.24033 9.60932 5.88292 9.10507 6.13732 8.60064C6.78216 7.32202 8.27206 6.62396 9.72714 7.00771C11.1822 7.39146 12.1179 8.72923 12.0268 10.1539C11.9909 10.7159 11.4252 10.9767 10.969 10.8564C10.4737 10.7258 10.2597 10.2469 10.2324 9.87205C10.1935 9.33743 9.81666 8.86234 9.26206 8.71607ZM16.3671 14.9268C16.17 14.5422 15.7892 14.2404 15.3308 14.1195L10.6411 12.8827C10.1826 12.7618 9.69947 12.8357 9.33352 13.0718C8.95878 13.3135 8.70829 13.7284 8.7613 14.2422C8.93054 15.8827 10.1055 17.3278 11.821 17.7802C13.5365 18.2326 15.2881 17.5594 16.2681 16.222C16.575 15.8031 16.5688 15.3205 16.3671 14.9268Z"]),
 .colorPremiumGradient-38tGFG.focused-3LIdPu, .colorPremiumGradient-38tGFG:active:not(.hideInteraction-1vQrZJ),
 .colorPremiumGradient-38tGFG,
 .reactionBtn-3I19bq:has(path[d^="M20.3397 14.2379C21.2318"]),
-.iconWrapper-2awDjA[aria-label="Show User Profile"] {
+.iconWrapper-2awDjA[aria-label="Show User Profile"],
+.divider-AZrXIA {
   display: none;
 }
 .status-170GHg {
@@ -2930,7 +2976,8 @@ button[aria-label="Send a gift"] {
   border-top-left-radius: var(--roundness);
   border-top-right-radius: var(--roundness);
 }
-.item-1TA5qI[tabindex="0"]>.radioBar-1XgZqD>div:first-child {
+.item-1TA5qI[tabindex="0"]>.radioBar-1XgZqD>div:first-child,
+.scroller-nxCRu_[tabindex="0"]>.iconContainer-Ksy8Oj>svg:first-child{
     position: relative;
 }
 .item-1TA5qI[tabindex="0"]>.radioBar-1XgZqD>div:first-child::before {
@@ -2942,6 +2989,16 @@ button[aria-label="Send a gift"] {
     height: 12px;
     left: 6px;
     top: 6px;
+}
+.scroller-nxCRu_>div[aria-checked="true"]>.iconContainer-Ksy8Oj::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: var(--third);
+    width: 10px;
+    height: 10px;
+    left: 4px;
+    top: 4px;
 }
 .lastChannel-21yyBC {
   border-bottom-left-raidus: var(--roundness);
@@ -3677,11 +3734,16 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
   d: path("M 12 2.001 H 2 V 22.001 H 22 V 2.001 Z M 17 13.001 H 13 V 17.001 H 11 V 13.001 H 7 V 11.001 H 11 V 7.001 H 13 V 11.001 H 17 V 13.001 Z");
 }
 .icon-2O29O0[src="/assets/d759f3acc6286c964cc8118d7f68b374.svg"] {
-    object-position: -100px -100px;
-    background: url("https://katze6969.github.io/themeassests/path.svg");
-    background-position: center;
+  object-position: -100px -100px;
+  background: url("https://katze6969.github.io/themeassests/path.svg");
+  background-position: center;
 }
 .permissionCheckmark-ji-OoY {
   background: url(https://raw.githubusercontent.com/Katze6969/themeassests/main/icon2.svg);
   width: 20px;
 }
+.icon-1KCy88[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
+  background-color: transparent !important;
+  background: url(https://raw.githubusercontent.com/Katze6969/themeassests/main/icon3.svg);
+}
+
