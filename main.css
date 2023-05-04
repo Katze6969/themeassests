@@ -1,4 +1,3 @@
-
 .bf-toolbar .format > img, .bf-toolbar .format > svg {
   opacity: 1;
   filter: brightness(0) saturate(100%) invert(66%) sepia(80%) saturate(3418%) hue-rotate(221deg) brightness(104%) contrast(98%);
@@ -847,7 +846,9 @@
 .header-11eigE,
 .emojiPicker-6YCk8a,
 .container-30qY7E,
-.splashImage-1iRUgw {
+.splashImage-1iRUgw,
+.allow-1h61-Z,
+.deny-1GO6vI {
   border-top-right-radius: border-radius: var(--roundness);
   border-top-left-radius: border-radius: var(--roundness);
   border-radius: var(--roundness);
@@ -1155,9 +1156,6 @@
 }
 .container-x8Y1ix {
   background-color: var(--bg);
-}
-.container-x8Y1ix:hover {
-  background-color: var(--bg3);
 }
 .colorStandard-21JIj7 {
   color: var(--bg);
@@ -2372,7 +2370,9 @@ button[aria-label="Send a gift"] {
 .theme-dark .checkbox-1LuCGM > svg {
   color: var(--bg3);
 }
-.theme-dark .notDetected-M3Ghh2 .gameName-zbZetm, .theme-light .notDetected-M3Ghh2 .gameName-zbZetm {
+.theme-dark .notDetected-M3Ghh2 .gameName-zbZetm,
+.theme-light .notDetected-M3Ghh2 .gameName-zbZetm,
+.discriminator-1_98cY {
   color: var(--third);
 }
 .theme-dark .notDetected-M3Ghh2 .lastPlayed-1jum9A, .theme-light .notDetected-M3Ghh2 .lastPlayed-1jum9A,
@@ -2382,11 +2382,14 @@ button[aria-label="Send a gift"] {
 .theme-dark .codeRedemptionRedirect-2hYMSQ,
 .warningIcon-3Mtahk,
 .description-22Sl9U,
-.theme-dark .contentTitle-3CylD3 strong {
+.theme-dark .contentTitle-3CylD3 strong,
+.inputPrefix-1HHwWv {
   color: var(--sec);
 }
 .content-FDHp32 ul li,
-.theme-dark .content-FDHp32 p {
+.theme-dark .content-FDHp32 p,
+.category-CysNYv,
+.channelInfo-3jN1ay > div {
   color: var(--sec) !important;
 }
 .content-131fQL > label > div {
@@ -2432,7 +2435,8 @@ button[aria-label="Send a gift"] {
 }
 .container-2qVG6q,
 .container-3YcgdM,
-.container-2kTWmC {
+.container-2kTWmC,
+.scroller-3_YDR2 {
   background-color: var(--bg);
 }
 .icon-2O29O0,
@@ -2483,6 +2487,9 @@ button[aria-label="Send a gift"] {
 .container-BetterVolume,
 .stickerCategory-2f6iSo,
 .toolbar-37BrJ5,
+.settingCard-xZSDjS,
+.emptyChannelIcon-1YdEz2,
+.addMemberRow-KVhQFf,
 .bar-H6j3_Q,
 .contentWrapper-2f9yME,
 .contentWrapper-2f9yME.isBurstReactionPicker-3h5fqV,
@@ -2499,6 +2506,7 @@ button[aria-label="Send a gift"] {
 .header-1Uy0p6,
 .mainCard-3KBsBI,
 .pill-3pRQlO,
+.wrapper-1HIH0j,
 .jumpButton-1ZwI_j,
 .container-3XgAHv,
 .iconWrapper-3FqQ75,
@@ -2570,6 +2578,11 @@ button[aria-label="Send a gift"] {
 .small-1P4vlo > g > rect {
   rx: 0px;
 }
+.settingCard-xZSDjS,
+.cardFolder-3H4uH4 {
+  border-bottom-left-radius: var(--roundness);
+  border-bottom-right-radius: var(--roundness);
+}
 .colorDefault-2_rLdz .checkbox-397WsK, .colorDefault-2_rLdz .radioSelection-3PDNAQ > path {
   d: path("M 5.375 3 H 18.625 H 21 V 18.625 V 21 H 5.375 H 3 V 5.375 V 3 Z");
 }
@@ -2615,6 +2628,9 @@ button[aria-label="Send a gift"] {
 }
 [d="M4.25892 16.5936C3.14073 14.7086 2.74913 12.4802 3.15765 10.3269C3.56618 8.17362 4.74672 6.24353 6.47761 4.89906C8.2085 3.55459 10.3707 2.88823 12.5581 3.02511C14.7455 3.16199 16.8077 4.0927 18.3575 5.64247C19.9073 7.19223 20.838 9.25445 20.9749 11.4419C21.1118 13.6293 20.4454 15.7915 19.101 17.5224C17.7565 19.2532 15.8264 20.4338 13.6731 20.8423C11.5198 21.2509 9.29146 20.8593 7.40646 19.7411L7.40648 19.741L4.29805 20.6291C4.16944 20.6659 4.03335 20.6676 3.90387 20.634C3.7744 20.6005 3.65625 20.5329 3.56167 20.4383C3.4671 20.3437 3.39953 20.2256 3.36598 20.0961C3.33243 19.9666 3.33412 19.8306 3.37086 19.7019L4.25898 16.5935L4.25892 16.5936Z"] {
   d: path("M5 17 5 8 19 8 19 18 8 18 3 21Z");
+}
+[d="M19.487 5.126L10.487 0.126C10.184 -0.042 9.81798 -0.042 9.51498 0.126L0.514977 5.126C0.197977 5.302 0.000976562 5.636 0.000976562 5.999C0.000976562 6.693 0.114977 22.999 10.001 22.999C19.887 22.999 20.001 6.693 20.001 5.999C20.001 5.636 19.804 5.302 19.487 5.126ZM10.001 5.999C11.382 5.999 12.501 7.118 12.501 8.499C12.501 9.88 11.382 10.999 10.001 10.999C8.61998 10.999 7.50098 9.88 7.50098 8.499C7.50098 7.118 8.61998 5.999 10.001 5.999ZM6.25098 16C6.25098 13.699 7.69998 12.25 10.001 12.25C12.302 12.25 13.751 13.699 13.751 16H6.25098Z"] {
+  d: path("M20 6 10 1 0 6 7 23 13 23ZM10 6H12.501V11H7.5V6ZM6.25 16V12.25L13.75 12.25 13.75 16H6.25Z");
 }
 [d='M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2zm0-6c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2zm0-6c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2z'] {
   d: path('m14 4H10V8h4v0Zm0 12H10v4h4v-3Zm0-6H10v4h4v-4Z');
@@ -2816,7 +2832,7 @@ button[aria-label="Send a gift"] {
   d: path("M 14 7 V 9 C 14 9 12.5867 9 12.5733 9.0067 L 11.84 10.6067 L 12.74 11.5067 L 11.4933 12.7533 L 10.5933 11.8533 L 8.9933 12.5867 V 14 H 6.9933 V 12.58 L 5.3933 11.8467 L 4.4933 12.7467 L 3.2467 11.5 L 4.1467 10.6 L 3.4133 9 H 2 V 7 H 3.4133 L 4.1467 5.4 L 3.2467 4.5 L 4.5 3.2467 L 5.4 4.1467 L 7 3.4133 V 2 H 9 V 3.4133 L 10.6 4.1467 L 11.5067 3.2533 L 12.7533 4.5 L 11.8533 5.4 L 12.5867 7 H 14 Z M 8 10 H 10 V 6 H 6 V 10 Z");
 }
 [d="M12 3C13.417 3 14.71 3.5 15.734 4.321L5.99805 14.058C5.99805 14.0479 5.99856 14.038 5.99907 14.0283C5.99956 14.0188 6.00005 14.0094 6.00005 14V9C6.00005 5.686 8.68605 3 12 3Z"] {
-  d: path("M 16 3 L 16 4 L 6 14 C 6 14 6 14 6 14 C 6 14 6 14 6 14 V 3 L 11 3 Z");
+  d: path("M16 3 16 4 7 13 7 3 11 3Z");
 }
 [d="M6.5 8.00667C7.88 8.00667 9 6.88667 9 5.50667C9 4.12667 7.88 3.00667 6.5 3.00667C5.12 3.00667 4 4.12667 4 5.50667C4 6.88667 5.12 8.00667 6.5 8.00667Z"] {
   d: path("M4 8H9V3H4Z");
@@ -2841,6 +2857,9 @@ button[aria-label="Send a gift"] {
 }
 [d="M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"] {
   d: path("M12 20H20V4H4V20ZM12 22H22V2H2V22Z");
+}
+[d="M17 11V7C17 4.243 14.756 2 12 2C9.242 2 7 4.243 7 7V11C5.897 11 5 11.896 5 13V20C5 21.103 5.897 22 7 22H17C18.103 22 19 21.103 19 20V13C19 11.896 18.103 11 17 11ZM12 18C11.172 18 10.5 17.328 10.5 16.5C10.5 15.672 11.172 15 12 15C12.828 15 13.5 15.672 13.5 16.5C13.5 17.328 12.828 18 12 18ZM15 11H9V7C9 5.346 10.346 4 12 4C13.654 4 15 5.346 15 7V11Z"] {
+  d: path("M17 11V2H7V11H5V22H19V11ZM12 18H10.5V15H13.5V18ZM15 11H9V4H15V11Z");
 }
 [d="M18 9V14C18 15.657 19.344 17 21 17V18H3V17C4.656 17 6 15.657 6 14V9C6 5.686 8.686 3 12 3C15.314 3 18 5.686 18 9ZM11.9999 21C10.5239 21 9.24793 20.19 8.55493 19H15.4449C14.7519 20.19 13.4759 21 11.9999 21Z"] {
   d: path("M18 9V14L21 17V18H3V17L6 14V9 3H18ZM8 21V19H16V21Z");
@@ -3048,6 +3067,33 @@ button[aria-label="Send a gift"] {
 .channelRow-4X_3fi {
   background-color: var(--bg);
 }
+.modeSelected-3DmyhH .content-1gYQeQ,
+.modeSelected-3DmyhH:hover .content-1gYQeQ,
+.wrapper-NhbLHG:hover .content-1gYQeQ,
+.clickable-vvKY2q .header-3OsQeK:hover,
+.selected-1GtAC5 .header-3OsQeK,
+.clickable-28SzVr:hover .layout-1qmrhw,
+.interactiveSelected-29CP8y,
+.interactive-26HRN_:focus-within,
+.interactive-26HRN_:hover,
+.peopleListItem-u6dGxF.active-2UF8Zh,
+.peopleListItem-u6dGxF:hover,
+.itemCard-3Etziu,
+.side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
+.topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
+.additionalActionsIcon-1IPuHI,
+.brand-2EKq3J.item-2GWPIy:hover,
+.container-x8Y1ix:hover,
+.tabBar-ra-EuL .item-3mHhwr:hover,
+.colorDefault-2_rLdz.focused-3LIdPu,
+.listRow-2nO1T6:hover,
+.result-u66Ywh[aria-selected=true] {
+  box-shadow: inset 0 0 0 1px var(--third);
+  background-color: var(--bg2);
+}
+.header-3OsQeK {
+  padding: 11px 16px;
+}
 .scrollTierBackground-BnWR8k {
   background-color: var(--bg) !important;
 }
@@ -3150,9 +3196,6 @@ button[aria-label="Send a gift"] {
 }
 .note-3TX9O7 textarea {
   border-radius: var(--roundess);
-}
-.colorDefault-2_rLdz.focused-3LIdPu {
-  background-color: var(--bg3);
 }
 .messagesErrorBar-1IQ1rH {
   background-color: var(--third);
@@ -3635,7 +3678,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .members-3WRCEx .pointerEvents-2KjWnj,
 .nowPlayingColumn-1eCBCN .pointerEvents-2KjWnj,
 .peopleListItem-u6dGxF .pointerEvents-2KjWnj {
-  height: 12px;
+  height: 10px;
   y: 24;
   stroke-width: 2.5px;
 }
@@ -3656,8 +3699,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
   .pointerEvents-2KjWnj[width="10"]:not(
     [mask="url(#svg-mask-status-online-mobile)"]
   ) {
-  width: 12px;
-  x: 24;
+  width: 10px;
+  x: 25;
 }
 .channel-1Shao0
   .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"],
@@ -3783,6 +3826,9 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .icon-1KCy88[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
   background-color: transparent !important;
   background: url(https://raw.githubusercontent.com/Katze6969/themeassests/main/icon3.svg);
+}
+.emptyChannelIcon-1YdEz2.locked-29sj8C {
+  background-image: url("https://raw.githubusercontent.com/Katze6969/themeassests/main/icon5.svg");
 }
 .bd-toast.toast-success.icon {
   background-image: url("https://raw.githubusercontent.com/Katze6969/themeassests/main/icon4.svg");
