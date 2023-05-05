@@ -2956,7 +2956,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .uploadDropModal-13Kd20 .bgScale-1iWuPF,
 .upsellTooltipWrapper-1wqikQ,
 .wrapper-2vIMkT:hover {
-  background-color: var(--bg3);
+  background-color: var(--bg3) !important;
 }
 #bd-pub-button,
 .actionButton-3-B2x-:hover,
