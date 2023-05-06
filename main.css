@@ -1618,11 +1618,6 @@ button[aria-label="Send a gift"] {
 .theme-dark .pill-3pRQlO.selected-24z1Ou {
   border-color: var(--third);
 }
-.theme-dark .placeholder-1rCBhr::before {
-  content: "You will ";
-  color: var(--primary-430);
-  visibility: visible !important;
-}
 .base-3bcbY3 .text-3S7XCz {
     display:flex;
     align-items:center;
