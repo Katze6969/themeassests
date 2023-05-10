@@ -2193,7 +2193,8 @@ button[aria-label="Send a gift"] {
 .linkButtonIcon-7rsZcu {
   padding-bottom: 6px;
 }
-.content-yjf30S [href="/store"] {
+.content-yjf30S [href="/store"],
+.contents-3NembX > span, .message-3C6JQ1 {
   display: none;
 }
 .input-BetterVolume,
