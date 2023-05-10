@@ -2095,7 +2095,8 @@ button[aria-label="Send a gift"] {
 .colorPremiumGradient-38tGFG,
 .reactionBtn-3I19bq:has(path[d^="M20.3397 14.2379C21.2318"]),
 .iconWrapper-2awDjA[aria-label="Show User Profile"],
-.divider-AZrXIA {
+.divider-AZrXIA,
+.maskBlack-5bor7K {
   display: none;
 }
 .controlIcon-10O-4h > rect {
