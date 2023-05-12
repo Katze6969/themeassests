@@ -9,6 +9,9 @@
 .bd-button {
   color: var(--bg);
 }
+.theme-dark .message-3C6JQ1 {
+  display: flex !important;
+}
 .bd-button:hover,
 .bd-button.bd-button-danger:hover {
   color: var(--third);
