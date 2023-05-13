@@ -9,9 +9,6 @@
 .bd-button {
   color: var(--bg);
 }
-.theme-dark .message-3C6JQ1 {
-  display: flex !important;
-}
 .bd-button:hover,
 .bd-button.bd-button-danger:hover {
   color: var(--third);
@@ -2098,8 +2095,7 @@ button[aria-label="Send a gift"] {
 .colorPremiumGradient-38tGFG,
 .reactionBtn-3I19bq:has(path[d^="M20.3397 14.2379C21.2318"]),
 .iconWrapper-2awDjA[aria-label="Show User Profile"],
-.divider-AZrXIA,
-.maskBlack-5bor7K {
+.divider-AZrXIA {
   display: none;
 }
 .controlIcon-10O-4h > rect {
@@ -2197,8 +2193,12 @@ button[aria-label="Send a gift"] {
   padding-bottom: 6px;
 }
 .content-yjf30S [href="/store"],
+.maskBlack-5bor7K,
 .contents-3NembX > span, .message-3C6JQ1 {
   display: none;
+}
+.theme-dark .message-3C6JQ1 {
+  display: flex !important;
 }
 .input-BetterVolume,
 .customItem-1KYL7t,
@@ -3282,6 +3282,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .hljs,
 .hoverButtonGroup-2yZIzC,
 .howItWorksContainer-3ZDRIG,
+.iconActiveLarge-ac-EDu,
 .icon-2O29O0,
 .icon-39rdLt,
 .icon-S3vUHH,
