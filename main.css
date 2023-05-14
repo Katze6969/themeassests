@@ -1559,9 +1559,20 @@ button[aria-label="Send a gift"] {
   border-color: var(--sec);
   color: var(--sec);
 }
+.button-TGAkj4,
+.emptyCard-KDifrB {
+  border: 1px solid var(--sec);
+  background-color: var(--bg2);
+}
+.button-TGAkj4:hover {
+  background-color: var(--bg3);
+}
 .horizontal-112GEH>.flex-2S1XBF:first-child, .horizontal-112GEH>.flexChild-3PzYmX:first-child > div {
   color: var(--sec) !important;
   background-color: transparent;
+}
+.actionButton-3-B2x-:hover {
+  color: var(--bg2);
 }
 .cardPrimary-pAe8Ed, .cardPrimary-pAe8Ed.editable-2xfXMr {
   border-color: transparent;
