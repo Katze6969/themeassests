@@ -3538,3 +3538,29 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 ::-webkit-scrollbar-thumb {
   border-radius: var(--roundness) !important;
 }
+.flipCardClosed-2MHhtz,
+.flipCardOpened-hiYLHX,
+.whatsNewDate-mk9C0H,
+.flipCardClosedText-3MGk_l,
+.activityCard-3EABg3,
+.activityCardTag-glB7qz,
+.flipCardClosedImg-17wHvQ,
+.celebrateCardContainer-MAdnBa,
+.celebrateCardImage-2XCDEK,
+.whatsNewImage-5jpa5v,
+.newTag-3g6dtV,
+.birthdayExplanationWrapper-c5wg5T {
+  border-radius: 0px;
+  color: var(--third);
+}
+.newTag-3g6dtV {
+  background-color: var(--bg3);
+}
+.activityCardDetails-F6IN_s > div > h2 {
+  color: var(--third);
+}
+.activityCardTag-glB7qz > div,
+.activityCardParticipants-1pfRTV,
+.celebrateCardSubheader-2oV2zq {
+  color: var(--sec) !important;
+}
