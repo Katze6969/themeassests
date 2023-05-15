@@ -2194,7 +2194,9 @@ button[aria-label="Send a gift"] {
 .colorDefault-2_rLdz.focused-3LIdPu,
 .listRow-2nO1T6:hover,
 .side-1lrxIh:hover .item-2GWPIy:hover,
-.result-u66Ywh[aria-selected=true] {
+.result-u66Ywh[aria-selected=true],
+.lookFilled-1H2Jvj.colorBrand-2M3O3N,
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz {
   box-shadow: inset 0 0 0 1px var(--third);
 }
 .header-3OsQeK {
@@ -2913,7 +2915,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .modeSelected-3DmyhH .content-1gYQeQ,
 .modeSelected-3DmyhH:hover .content-1gYQeQ,
 .navButtonActive-1EqC5l,
-.option-Uc12mm,
 .peopleListItem-u6dGxF.active-2UF8Zh,
 .peopleListItem-u6dGxF:hover,
 .radioBar-3w9XY-,
@@ -3092,6 +3093,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .actionButton-3-B2x-,
 .actionContainer-EzNGrb,
 .actions-10aT1z,
+.activityDetailsContainer-2xgfpn,
+.activityImage-21gMrZ,
 .activityItem-1Z9CTr,
 .activitySectionAssets-1wpe42 .largeImage-2EIggm,
 .activitySectionAssets-1wpe42 .smallImage-m2dwC4,
@@ -3334,6 +3337,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .jumpButton-1ZwI_j,
 .jumpToPresentBar-1cEnH0,
 .key-RP8gj3,
+.launcherInnerContainer-1yaOMQ,
 .layout-1qmrhw,
 .list-1bztb-,
 .list-3ykg7W,
