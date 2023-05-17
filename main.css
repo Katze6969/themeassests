@@ -2260,7 +2260,8 @@ button[aria-label="Send a gift"] {
 .communityInfoPill-2Mll66 > svg > path {
   fill: var(--third);
 }
-.expandedFolderIconWrapper-3RwQpD > svg {
+.expandedFolderIconWrapper-3RwQpD > svg,
+.container-3g15px > div > div {
   color: var(--third) !important;
 }
 .icon-2O29O0 {
@@ -2547,6 +2548,12 @@ button[aria-label="Send a gift"] {
 .wrapper-3Un6-K .dots-1k2MxY {
   overflow: visible;
 }
+.pointerEvents-2KjWnj[width="16"]:not(
+    [mask="url(#svg-mask-status-online-mobile)"]
+  ) {
+    x: 60;
+    y: 60;
+  }
 .userPopout-2j1gM4 .mask-1y0tyc > svg > mask > rect:first-child {
   x: 18;
   y: 14 !important;
@@ -2691,6 +2698,9 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
   height: 22px;
   stroke-width: 2,5px;
   stroke: var(--background-secondary-alt);
+}
+.wrapper-3Un6-K > svg > circle {
+  display: none;
 }
 .header-1_vWwx > div > div > svg > rect {
   x: 102;
