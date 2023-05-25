@@ -2508,6 +2508,11 @@ button[aria-label="Send a gift"] {
   width: 10px;
   height: 10px;
 }
+.pageIndicator-cOEPV8,
+.pageButtonNext-2_bbdk,
+.pageButtonPrev-3q9rh8 {
+  border-color: var(--sec) !important;
+}
 .contextMenuNub-NuTZ_U {
   padding: 0px;
 }
@@ -3285,6 +3290,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .emptyCard-KDifrB,
 .emptyChannelIcon-1YdEz2,
 .expandedFolderBackground-1kSAf6,
+.expandedInfo-1W31i3,
 .fakeActivityIcon-KeXVoI,
 .fakeEdges-18N907:after,
 .fakeEdges-18N907:before,
@@ -3328,6 +3334,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .image-ZPv20Y,
 .imageUploaderInner-IIRaFr,
 .imageWrapper-oMkQl4,
+.indicator-1zNk1M,
 .inner-1lPVFp,
 .input-125oad,
 .input-1nrc5P,
@@ -3395,7 +3402,11 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .overlayBackground-1KgwVi,
 .overlayBackground-2aa7wt,
 .overlayTitle-2efoIF,
+.pageActions-1crTQL,
+.pageButtonNext-2_bbdk,
+.pageButtonPrev-3q9rh8,
 .partyMemberOverflow-3G1oZz,
+.paymentPane-ut5qKZ,
 .pencilContainer-18TrEJ,
 .peopleListItem-u6dGxF.active-2UF8Zh,
 .peopleListItem-u6dGxF:hover,
@@ -3414,6 +3425,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .popoutBanner-16rVDY .pencilContainer-11Kuga,
 .popoutBanner-16rVDY,
 .popoutBannerPremium-2RvDNZ .pencilContainer-11Kuga,
+.popoutContainer-2wbmiM,
 .premiumPromo-1eKAIB,
 .previewContainer-1GxmBJ,
 .previewContainer-1xQAsw,
@@ -3486,6 +3498,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .splashContainer-2PC_Bm,
 .splashImage-1iRUgw,
 .spoilerText-2G40u0,
+.statusTag-2MQURR,
 .status-15kcmy,
 .status-1ZXjSF,
 .sticker-H2HhJD,
@@ -3573,11 +3586,20 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .newTag-3g6dtV {
   background-color: var(--bg3);
 }
-.activityCardDetails-F6IN_s > div > h2 {
+.activityCardDetails-F6IN_s > div > h2,
+.amount-3hAJzp,
+.date-2cJd4O,
+.description-1IgJoT,
+.theme-dark .paymentHeader-2o7Phd,
+.paymentRowHeaderDescription-2TcyV1,
+.pageIndicator-cOEPV8 {
   color: var(--third);
 }
 .activityCardTag-glB7qz > div,
 .activityCardParticipants-1pfRTV,
-.celebrateCardSubheader-2oV2zq {
+.celebrateCardSubheader-2oV2zq,
+.billingInformation-2bXmfE,
+.currency-ugvBw4,
+.paymentDetail-3Hi99Q {
   color: var(--sec) !important;
 }
