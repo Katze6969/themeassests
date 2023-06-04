@@ -714,8 +714,9 @@
 .colorStandard-21JIj7 {
   color: black;
 }
-.addFriendInput-1Ta-rO::placeholder {
-  color: var(--sec);
+.addFriendInput-1Ta-rO::placeholder,
+.item-3mHhwr[aria-label="Add Friend"]:hover {
+  color: var(--sec) !important;
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
   background-color: var(--links);
