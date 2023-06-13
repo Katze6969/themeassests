@@ -1,3 +1,4 @@
+
 .bf-toolbar .format > img, .bf-toolbar .format > svg {
   opacity: 1;
   filter: brightness(0) saturate(100%) invert(66%) sepia(80%) saturate(3418%) hue-rotate(221deg) brightness(104%) contrast(98%);
@@ -2275,6 +2276,9 @@ button[aria-label="Send a gift"] {
 .addFriendInputWrapper-kkoSV9:focus-within {
   border-color: var(--sec);
 }
+.gMx7ZQAGhBSydDebRjyI > div {
+  border-radius: 0rem;
+}
 .messagesErrorBar-1IQ1rH {
   background-color: var(--third);
 }
@@ -2317,7 +2321,8 @@ button[aria-label="Send a gift"] {
 .pro-3GwLMX,
 .title-NjUt5y,
 .heading-xxl-extrabold-2-MUEs,
-.mainChannelInfo-3I-_7Y .title-1xszmS {
+.mainChannelInfo-3I-_7Y .title-1xszmS,
+.userTagUsernameBase-267ALn {
   color: var(--third) !important;
 }
 .theme-dark .activityProfile-1712BN .activityName-3YXl6e, .theme-dark .activityProfile-1712BN .content-tXPNDw, .theme-dark .activityProfile-1712BN .details-2-ciHo, .theme-dark .activityProfile-1712BN .name-1-Q7l2, .theme-dark .activityProfile-1712BN .nameNormal-2fPMD2, .theme-dark .activityProfile-1712BN .nameWrap-3TyM52, .theme-dark .activityProfileV2-1N7pee .activityName-3YXl6e, .theme-dark .activityProfileV2-1N7pee .content-tXPNDw, .theme-dark .activityProfileV2-1N7pee .details-2-ciHo, .theme-dark .activityProfileV2-1N7pee .name-1-Q7l2, .theme-dark .activityProfileV2-1N7pee .nameNormal-2fPMD2, .theme-dark .activityProfileV2-1N7pee .nameWrap-3TyM52, .theme-dark .activityUserPopout-2MzGCj .activityName-3YXl6e, .theme-dark .activityUserPopout-2MzGCj .content-tXPNDw, .theme-dark .activityUserPopout-2MzGCj .details-2-ciHo, .theme-dark .activityUserPopout-2MzGCj .name-1-Q7l2, .theme-dark .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .theme-dark .activityUserPopout-2MzGCj .nameWrap-3TyM52, .theme-dark .activityUserPopoutV2-3eKqzY .activityName-3YXl6e, .theme-dark .activityUserPopoutV2-3eKqzY .content-tXPNDw, .theme-dark .activityUserPopoutV2-3eKqzY .details-2-ciHo, .theme-dark .activityUserPopoutV2-3eKqzY .name-1-Q7l2, .theme-dark .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2, .theme-dark .activityUserPopoutV2-3eKqzY .nameWrap-3TyM52, .theme-light .activityProfile-1712BN .activityName-3YXl6e, .theme-light .activityProfile-1712BN .content-tXPNDw, .theme-light .activityProfile-1712BN .details-2-ciHo, .theme-light .activityProfile-1712BN .name-1-Q7l2, .theme-light .activityProfile-1712BN .nameNormal-2fPMD2, .theme-light .activityProfile-1712BN .nameWrap-3TyM52, .theme-light .activityProfileV2-1N7pee .activityName-3YXl6e, .theme-light .activityProfileV2-1N7pee .content-tXPNDw, .theme-light .activityProfileV2-1N7pee .details-2-ciHo, .theme-light .activityProfileV2-1N7pee .name-1-Q7l2, .theme-light .activityProfileV2-1N7pee .nameNormal-2fPMD2, .theme-light .activityProfileV2-1N7pee .nameWrap-3TyM52, .theme-light .activityUserPopout-2MzGCj .activityName-3YXl6e, .theme-light .activityUserPopout-2MzGCj .content-tXPNDw, .theme-light .activityUserPopout-2MzGCj .details-2-ciHo, .theme-light .activityUserPopout-2MzGCj .name-1-Q7l2, .theme-light .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .theme-light .activityUserPopout-2MzGCj .nameWrap-3TyM52, .theme-light .activityUserPopoutV2-3eKqzY .activityName-3YXl6e, .theme-light .activityUserPopoutV2-3eKqzY .content-tXPNDw, .theme-light .activityUserPopoutV2-3eKqzY .details-2-ciHo, .theme-light .activityUserPopoutV2-3eKqzY .name-1-Q7l2, .theme-light .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2, .theme-light .activityUserPopoutV2-3eKqzY .nameWrap-3TyM52,
