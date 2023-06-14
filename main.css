@@ -3622,6 +3622,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .celebrateCardSubheader-2oV2zq,
 .billingInformation-2bXmfE,
 .currency-ugvBw4,
-.paymentDetail-3Hi99Q {
+.paymentDetail-3Hi99Q,
+.tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1[aria-selected=true] {
   color: var(--sec) !important;
 }
