@@ -2486,7 +2486,8 @@ button[aria-label="Send a gift"] {
   color: var(--third);
   border-color: var(--third);
 }
-.partyMemberOverflow-3G1oZz {
+.partyMemberOverflow-3G1oZz,
+.customStatusText-V9aTHE {
   color: var(--sec);
 }
 .bd-notice-button:hover {
@@ -2543,17 +2544,17 @@ button[aria-label="Send a gift"] {
   pointer-events: none;
 }
 .pointerEvents-2KjWnj[width="10"]:not(
-    [mask="url(#svg-mask-status-online-mobile)"]
-  ),
+[mask="url(#svg-mask-status-online-mobile)"]
+),
 .pointerEvents-2KjWnj[width="12"]:not(
-    [mask="url(#svg-mask-status-online-mobile)"]
-  ),
+[mask="url(#svg-mask-status-online-mobile)"]
+),
 .pointerEvents-2KjWnj[width="16"]:not(
-    [mask="url(#svg-mask-status-online-mobile)"]
-  ),
+[mask="url(#svg-mask-status-online-mobile)"]
+),
 .pointerEvents-2KjWnj[width="8"]:not(
-    [mask="url(#svg-mask-status-online-mobile)"]
-  ) {
+[mask="url(#svg-mask-status-online-mobile)"]
+) {
   rx: var(--server-radius);
 }
 .pointerEvents-2KjWnj[mask="url(#svg-mask-status-online-mobile)"],
@@ -2566,9 +2567,7 @@ button[aria-label="Send a gift"] {
 .wrapper-3Un6-K .dots-1k2MxY {
   overflow: visible;
 }
-.pointerEvents-2KjWnj[width="16"]:not(
-    [mask="url(#svg-mask-status-online-mobile)"]
-  ) {
+.pointerEvents-2KjWnj[width="16"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
   x: 60;
   y: 60;
   }
