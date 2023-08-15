@@ -2210,7 +2210,11 @@ button[aria-label="Send a gift"] {
 .lookFilled-1H2Jvj.colorBrand-2M3O3N,
 .lookFilled-1H2Jvj.colorPrimary-2-Lusz,
 .link-1_kTxV:hover,
-.modeSelected-3DmyhH .link-1_kTxV {
+.modeSelected-3DmyhH .link-1_kTxV,
+.button-12Fmur.enabled-9OeuTA:hover,
+.withTagAsButton-OsgQ9L:hover,
+.withTagless-10ooWt:hover,
+.form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h {
   box-shadow: inset 0 0 0 1px var(--third);
 }
 .header-3OsQeK {
@@ -3605,6 +3609,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .wrapperAudio-1Bzv_Z.newMosaicStyle-31sBoZ,
 .wrapperSimple-2SFl9K,
 .theme-dark .popoutList-2oR8Im,
+.media-29HL8-,
 ::-webkit-scrollbar-thumb {
   border-radius: var(--roundness) !important;
 }
