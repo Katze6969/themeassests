@@ -582,7 +582,8 @@
   color: var(--bg);
 }
 .numberBadge-37OJ3S {
-  color: var(--bg);
+  color: var(--third) !important;
+  background-color: var(--bg) !important ;
 }
 .button-1EGGcP.buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX {
@@ -2817,7 +2818,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .additionalActionsIcon-3Cy8UU:hover,
 .interactive-MpGq2z:hover:hover,
 .pageBody-29jwEZ > div > h2,
-.reaction-3vwAF2:hover .reactionCount-26U4As {
+.reaction-3vwAF2:hover .reactionCount-26U4As,
+.button-ejjZWC:hover .contents-3NembX {
   color: var(--third) !important;
 }
 .theme-dark .footerSeparator-3U8YsT,
@@ -2847,7 +2849,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
   color: #FFFFFF !important;
 }
 .top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy,
-.navButton-Z_c6CC:hover {
+.navButton-Z_c6CC:hover,
+.buttonInner-3aRbcx {
   color: var(--sec);
 }
 .buttonWhite-hd8TaTm,
@@ -2885,8 +2888,12 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .bd-addon-views .bd-view-button svg {
   fill: #FFFFFF;
 }
-.bd-filled-checkmark, .bd-addon-views .bd-view-button.selected svg {
+.bd-filled-checkmark, .bd-addon-views .bd-view-button.selected svg,
+.button-ejjZWC:hover .contents-3NembX > svg > g > path {
   fill: var(--third) !important;
+}
+.button-ejjZWC .contents-3NembX > svg > g > path {
+  fill: var(--sec);
 }
 .categoryList-2GgCrD,
 .inspector-DFKXwB {
@@ -2999,6 +3006,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .theme-dark .wrapper-1ZcZW-:hover,
 .optionButtonWrapper-2lbogO:hover,
 .contentWrapper-2f9yME,
+.numberBadge-37OJ3S,
 .premiumBadgeWrapper-3KlQro {
   -webkit-box-shadow: inset 0 0 0 1px var(--third) !important;
 }
@@ -3029,7 +3037,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
   box-shadow: 0 0 0 1px var(--third) !important;
 }
-.top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy {
+.top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy,
+.button-ejjZWC .contents-3NembX {
   border: none;
 }
 .slider-HJFN2i > svg > path {
@@ -3071,6 +3080,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .option-ayUoaq:hover:after,
 .colorable-3rVGna > svg,
 .contextMenuNub-NuTZ_U,
+.button-ejjZWC .contents-3NembX,
 .tierCard-2HoGkY {
   background: transparent !important;
 }
@@ -3092,6 +3102,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .theme-dark .header-3xB4vB,
 .menu-2TXYjN,
 .pageBody-23bo4p,
+.chatHeaderBar-2fUORh,
 .prompt-1sE27N,
 .checkIcon-3eAeN_,
 .innerWrapper-Eo2E86,
@@ -3457,7 +3468,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .mentioned-Tre-dv:before,
 .newMessagesBar-1hF-9G,
 .notice-3GY7Hk,
-.numberBadge-37OJ3S,
 .progressBar-1T6LYX,
 .target-1eRTCg.dragOver-1OKbo2:before,
 .theme-dark .activeButton-LRWFC_,
