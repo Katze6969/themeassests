@@ -799,10 +799,10 @@
   border-bottom: 1px solid var(--third) !important;
 }
 .theme-dark .wrapper-1ZcZW- {
-  color: var(--third);
+  color: var(--sec);
 }
 .theme-dark .wrapper-1ZcZW-:hover {
-  color: var(--sec);
+  color: var(--third);
 }
 .container-36u7Lw {
   border-color: var(--bg);
@@ -2552,8 +2552,8 @@ button[aria-label="Send a gift"] {
   color: var(--third);
 }
 .base-3IDx3L {
-  color: var(--bg3);
-  background-color: var(--third) !important;
+  color: var(--third);
+  background-color: var(--bg) !important;
 }
 .base-3IDx3L > svg > path {
   fill: var(--bg2);
@@ -2815,7 +2815,9 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .tierCardCurrentTier-2zaZoV,
 .heading-2u4RIg,
 .additionalActionsIcon-3Cy8UU:hover,
-.interactive-MpGq2z:hover:hover {
+.interactive-MpGq2z:hover:hover,
+.pageBody-29jwEZ > div > h2,
+.reaction-3vwAF2:hover .reactionCount-26U4As {
   color: var(--third) !important;
 }
 .theme-dark .footerSeparator-3U8YsT,
@@ -2831,7 +2833,12 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .divider-3nqZNm {
   display: none;
 }
-.recommendedTierHighlight-1vvme_:after, .recommendedTierHighlight-1vvme_:before {
+.recommendedTierHighlight-1vvme_:after, .recommendedTierHighlight-1vvme_:before,
+.premiumBadgeWrapper-3KlQro,
+.top-Ktfr_T .item-2GWPIy,
+.tabBar-1_P75h,
+.optionButtonWrapper-2lbogO,
+.reaction-3vwAF2 {
   border: none;
 }
 .pricePerInterval-1HgDkM,
@@ -2839,7 +2846,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .colorDefault-2_rLdz.focused-3LIdPu .check-3-73a4 {
   color: #FFFFFF !important;
 }
-.top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy {
+.top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy,
+.navButton-Z_c6CC:hover {
   color: var(--sec);
 }
 .buttonWhite-hd8TaTm,
@@ -2855,8 +2863,9 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
   border-color: transparent !important;
 }
 .theme-dark .checkbox-1LuCGM,
-.recommendedTierHighlight-1vvme_:before {
-  border-color: var(--sec);
+.recommendedTierHighlight-1vvme_:before,
+.theme-dark .checkbox-1LuCGM {
+  border-color: var(--sec) !important;
 }
 .recommendedServerCard-3f-92z:before,
 .recommendedServerCard-3f-92z:after,
@@ -2884,7 +2893,9 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
   background-color: transparent;
 }
 .header-1aIywd,
-.recommendedTierHighlightTag-j-ZGmE {
+.recommendedTierHighlightTag-j-ZGmE,
+.premiumBadgeWrapper-3KlQro,
+.chat-2ZfjoI {
   background: var(--bg2) !important;
 }
 .selectYourAnswer-MqT8vm
@@ -2970,9 +2981,25 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .bf-toolbar::before,
 .bf-toolbar .format:hover,
 .contentWrapper-3vHNP2,
+.button-ejjZWC:hover,
 .chatHeaderBar-31g1mU,
+.theme-dark .tooltip-33Jwqe,
+.theme-light .tooltip-33Jwqe,
+.diversityEmojiItem-2bgZKv:hover,
 .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover,
-.recommendedTierHighlight-1vvme_:before {
+.recommendedTierHighlight-1vvme_:before,
+.channelRow-4X_3fi:hover:not(.disabled-3cfocy),
+.optionButtonWrapper-2lbogO.selected-KQBgNS,
+.planOptionDiscount-2nex9n,
+.prompt-1sE27N:hover,
+.checkIcon-3eAeN_,
+.base-3IDx3L,
+.reactionTooltip-1qrpUf,
+.reactionInner-YJjOtT:hover,
+.theme-dark .wrapper-1ZcZW-:hover,
+.optionButtonWrapper-2lbogO:hover,
+.contentWrapper-2f9yME,
+.premiumBadgeWrapper-3KlQro {
   -webkit-box-shadow: inset 0 0 0 1px var(--third) !important;
 }
 .popout-3gby1q,
@@ -2998,6 +3025,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .full-motion .guildBoostCtaSecondary-12YMbj:hover,
 .card-2ZCHT-,
 .wrapper-2SplAX,
+.container-5BK5-N,
 .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
   box-shadow: 0 0 0 1px var(--third) !important;
 }
@@ -3025,7 +3053,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .option-ayUoaq[aria-selected=true]:after,
 .emojiPickerHasTabWrapper-LoluYe .categoryList-2qRrlj,
 .outer-1KB3kA .input-1nrc5P,
-.progressBarMarker-84rglL {
+.progressBarMarker-84rglL,
+.container-5BK5-N {
   background: none;
 }
 .userProfileInnerThemedWithBanner-25XGmz,
@@ -3051,14 +3080,28 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .scroller-2qwVWY,
 .categoryItemDefaultCategory-3haEDq,
 .guildIcon-2SUGiq,
+.planOptionDiscount-2nex9n,
+.optionButtonWrapper-2lbogO.selected-KQBgNS,
 .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4),
+.lookFilled-1H2Jvj.colorGreen-jIPCAS:hover:not(.actionButton-iarQTd),
+.expandedFolderBackground-1kSAf6,
+.reactionInner-YJjOtT,
+.diversitySelectorOptions-3DhNYs,
+.theme-dark .container-2IKOsH,
+.theme-dark .wrapper-1ZcZW-,
+.theme-dark .header-3xB4vB,
 .menu-2TXYjN,
+.pageBody-23bo4p,
+.prompt-1sE27N,
+.checkIcon-3eAeN_,
 .innerWrapper-Eo2E86,
 .innerWrapper-MqFL7z,
 .topPerksCard-1znJI8,
 .lookFilled-GPyucw.select-Zz0IcO,
 .popout-15UxD6,
 .card-2ZCHT-,
+.wrapper-wOVKdL,
+.reactionTooltip-1qrpUf,
 .bd-search-wrapper,
 .chatHeaderBar-31g1mU,
 .wrapper-2SplAX,
@@ -3372,12 +3415,9 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .keyboard-mode .removeAttachmentHoverButton-3gHROs:focus,
 .lookFilled-1H2Jvj.colorBrand-2M3O3N[aria-disabled=true],
 .lookFilled-1H2Jvj.colorBrandNew-abZT3v:hover,
-.lookFilled-1H2Jvj.colorGreen-jIPCAS:hover:not(.actionButton-iarQTd),
 .lookOutlined-3RTC7c.colorBrand-2M3O3N:hover,
 .noticeWrapper-8z511t,
-.pageBody-23bo4p,
 .pencilIcon-1MUmnO,
-.planOptionDiscount-2nex9n,
 .popoutBanner-16rVDY .pencilContainer-11Kuga,
 .popoutBannerPremium-2RvDNZ .pencilContainer-11Kuga,
 .relationshipButtons-pZ_UWl .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover:not(.actionButton-iarQTd),
@@ -3389,7 +3429,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .theme-dark .tooltip-14MtrL,
 .theme-dark .tooltipGreen-oouJdx .tooltipPointer-3L49xb,
 .theme-dark .tooltipGreen-oouJdx,
-.theme-dark .wrapper-1ZcZW-,
 .uploadDropModal-13Kd20 .bgScale-1iWuPF,
 .upsellTooltipWrapper-1wqikQ,
 .theme-dark .popoutList-2oR8Im {
@@ -3727,7 +3766,17 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .item-1Mjtru,
 .item-1TA5qI,
 .item-2LIpTv,
+.heroBanner-15dNeS,
+.bannerCard-2LJzbg,
+.bannerBackground-HeU8g7,
+.shopBanner-PEO5bV,
+.shopCard-H3oN50,
+.container-5BK5-N,
+.upsellTextContainer-2_9JSn,
+.optionButtonWrapper-2lbogO,
+.checkIcon-3eAeN_,
 .innerWrapper-Eo2E86,
+.diversitySelectorOptions-3DhNYs,
 .item-2OyinQ:first-child,
 .item-2OyinQ:last-child,
 .item-5ApiZt,
@@ -3735,6 +3784,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .jumpButton-1ZwI_j,
 .jumpToPresentBar-1cEnH0,
 .key-RP8gj3,
+.prompt-1sE27N,
+.reactionTooltip-1qrpUf,
 .launcherInnerContainer-1yaOMQ,
 .layout-1qmrhw,
 .list-1bztb-,
@@ -3758,6 +3809,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .menu-1QACrS,
 .boostedTierIconBackground-3O7kMq,
 .menu-2TXYjN,
+.premiumBadgeWrapper-3KlQro,
 .messageAttachmentMediaMosaic-2ic1yt,
 .messageBlock-3K-P-A,
 .messageGroupWrapper-1jf_7C,
