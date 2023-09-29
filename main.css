@@ -715,7 +715,7 @@
   display: none;
 }
 .item-3mHhwr[aria-label="Add Friend"] {
-  color: var(--bg) !important;
+  color: var(--sec) !important;
 }
 .colorStandard-21JIj7 {
   color: black;
@@ -3294,6 +3294,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .theme-dark .subtitle-3v29zT,
 .theme-dark .uploadModal-2ie9O_,
 .theme-dark .wrapper-1ZcZW-:hover,
+.item-3mHhwr[aria-label="Add Friend"],
 .thin-31rlnD.scrollerBase-_bVAAt,
 .titleContainer-3fPic2,
 .topSection-13QKHs,
@@ -3445,7 +3446,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .iconBadge-3qSJIw,
 .iconBadge-3qSJIw.participating-1NvRVd,
 .item-2LIpTv,
-.item-3mHhwr[aria-label="Add Friend"],
 .jumpToPresentBar-1cEnH0,
 .keybindShortcut-3zF1P9 span,
 .lookFilled-yCfaCM.colorBrand-I6CyqQ,
