@@ -578,9 +578,6 @@
 .emptyText-mZZyQk {
   color: var(--sec);
 }
-.barButtonBase-Sk2mdB {
-  color: var(--bg);
-}
 .numberBadge-37OJ3S {
   color: var(--third) !important;
   background-color: var(--bg) !important ;
@@ -2321,7 +2318,7 @@ button[aria-label="Send a gift"] {
   border-radius: 0rem;
 }
 .messagesErrorBar-1IQ1rH {
-  background-color: var(--third);
+  background-color: var(--bg);
 }
 .tile-3POX2m:hover .sourceThumbnail-ERDcZE {
   box-shadow: inset 0 0 0 2px var(--third);
@@ -2819,7 +2816,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .interactive-MpGq2z:hover:hover,
 .pageBody-29jwEZ > div > h2,
 .reaction-3vwAF2:hover .reactionCount-26U4As,
-.button-ejjZWC:hover .contents-3NembX {
+.button-ejjZWC:hover .contents-3NembX,
+.barButtonBase-Sk2mdB {
   color: var(--third) !important;
 }
 .theme-dark .footerSeparator-3U8YsT,
@@ -2850,6 +2848,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 }
 .top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy,
 .navButton-Z_c6CC:hover,
+.newMessagesBar-1hF-9G,
 .buttonInner-3aRbcx {
   color: var(--sec);
 }
@@ -3007,6 +3006,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .optionButtonWrapper-2lbogO:hover,
 .contentWrapper-2f9yME,
 .numberBadge-37OJ3S,
+.emojiSection-3QtaWO,
 .premiumBadgeWrapper-3KlQro {
   -webkit-box-shadow: inset 0 0 0 1px var(--third) !important;
 }
@@ -3117,6 +3117,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .chatHeaderBar-31g1mU,
 .wrapper-2SplAX,
 .tooltip-33Jwqe,
+.emojiSection-3QtaWO,
 .soundButtonSettingContainer-3G4JEB,
 .selectedBackground-1t6xXq,
 .cameraWrapper-nG8dpo,
@@ -3306,6 +3307,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .theme-dark .uploadModal-2ie9O_,
 .theme-dark .wrapper-1ZcZW-:hover,
 .item-3mHhwr[aria-label="Add Friend"],
+.barButtonBase-Sk2mdB,
+.newMessagesBar-1hF-9G,
 .thin-31rlnD.scrollerBase-_bVAAt,
 .titleContainer-3fPic2,
 .topSection-13QKHs,
@@ -3466,7 +3469,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .mediaBarWrapper-33h1oY .mediaBarGrabber-FvJKJg,
 .mention-3XBnnZ,
 .mentioned-Tre-dv:before,
-.newMessagesBar-1hF-9G,
 .notice-3GY7Hk,
 .progressBar-1T6LYX,
 .target-1eRTCg.dragOver-1OKbo2:before,
