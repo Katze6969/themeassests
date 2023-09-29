@@ -3009,6 +3009,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .contentWrapper-2f9yME,
 .numberBadge-37OJ3S,
 .emojiSection-3QtaWO,
+.reactionInner-1po5__:hover,
 .premiumBadgeWrapper-3KlQro {
   -webkit-box-shadow: inset 0 0 0 1px var(--third) !important;
 }
@@ -3036,11 +3037,15 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .card-2ZCHT-,
 .wrapper-2SplAX,
 .container-5BK5-N,
+.addReactButton-3bSQb6:hover,
 .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
   box-shadow: 0 0 0 1px var(--third) !important;
 }
 .top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy,
-.button-ejjZWC .contents-3NembX {
+.button-ejjZWC .contents-3NembX,
+.reactionInner-1po5__,
+.addReactButton-3bSQb6,
+.reaction-102jx9 {
   border: none;
 }
 .slider-HJFN2i > svg > path {
@@ -3114,6 +3119,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .lookFilled-GPyucw.select-Zz0IcO,
 .popout-15UxD6,
 .card-2ZCHT-,
+.addReactButton-3bSQb6,
 .wrapper-wOVKdL,
 .reactionTooltip-1qrpUf,
 .bd-search-wrapper,
@@ -3131,6 +3137,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .actionButton-iarQTd:hover,
 .backgroundImages-2m7jaB,
 .root-22AK9z,
+.reactionInner-1po5__,
 .bigPerkCard-1uwmWV,
 .container-1QtPKm,
 .membershipDialogHouse3-1E5AN4,
@@ -3154,6 +3161,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .recommendedServerCard-3f-92z,
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover,
 .container-iA3Qrz,
+.iconWrapper-3FqQ75,
 .button-ejjZWC,
 .searchResult-O9NDji,
 .pill-3pRQlO.clickable-3YTfAq,
