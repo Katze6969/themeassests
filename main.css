@@ -362,8 +362,8 @@
   color: var(--third);
 }
 .qualityIndicatorFullQuality-3Onyt5 {
-  color: var(--bg3);
-  background-color: var(--third);
+  color: var(--third);
+  background-color: transparent;
   padding: 0px;
   margin-left: 0px;
   margin-right: 0px;
@@ -420,7 +420,8 @@
 .heading-xl-bold-38fuFv,
 .heading-xl-semibold-3E1dYv,
 .tipTitle-3FYEQp,
-.base-ZDDK0g {
+.base-ZDDK0g,
+.icon-mJhEWn {
   color: var(--third);
 }
 .categoryHeader-1ShKQ- > div {
@@ -429,7 +430,6 @@
 .auditLog-1NVAY0 strong {
   color: var(--third) !important;
 }
-.icon-mJhEWn,
 .tip-1AwED_,
 .channelName-3pdImQ {
   color: var(--sec);
@@ -1462,6 +1462,11 @@ button[aria-label="Send a gift"] {
 }
 .segmentControlOption-3MnJdT {
   color: var(--sec);
+  border-bottom: 2px solid var(--sec);
+}
+.tabItemSelected-Z0xl-W {
+  color: var(--third) !important;
+  border-bottom: 2px solid var(--third) !important;
 }
 .sourceName-3Wf8QG {
   color: var(--third);
@@ -1696,14 +1701,14 @@ button[aria-label="Send a gift"] {
   d: path("m 2 2 L 0 2 v 20 H 24 v -20 z m 2.4846 13.931 c 0.5583 0.375 1.2 0.5625 1.925 0.5625 c 0.9667 0 1.6958 -0.3333 2.1875 -1 l 0.2375 0.825 h 1.475 v -4.9 h -3.7625 v 1.625 h 1.9875 v 1.075 c -0.1583 0.225 -0.3833 0.4042 -0.675 0.5375 c -0.2833 0.125 -0.5958 0.1875 -0.9375 0.1875 c -0.7667 0 -1.3542 -0.2458 -1.7625 -0.7375 c -0.4083 -0.4916 -0.6125 -1.1916 -0.6125 -2.1 c 0 -0.9 0.2042 -1.5958 0.6125 -2.0874 c 0.4083 -0.5 0.9958 -0.75 1.7625 -0.75 c 0.8417 0 1.475 0.3917 1.9 1.175 l 1.4125 -1.0124 c -0.3 -0.575 -0.7459 -1.0208 -1.3375 -1.3375 c -0.5833 -0.3167 -1.2458 -0.475 -1.9875 -0.475 c -0.875 0 -1.6292 0.1917 -2.2625 0.575 c -0.625 0.3833 -1.1042 0.9125 -1.4375 1.5875 c -0.325 0.675 -0.4875 1.45 -0.4875 2.325 c 0 0.8834 0.1542 1.6667 0.4625 2.35 c 0.3083 0.675 0.7417 1.2 1.3 1.575 z m 7.4509 0.3875 h 1.825 v -8.625 h -1.825 v 8.625 z m 3.5767 0 h 1.825 v -3.275 h 3.2 v -1.65 h -3.2 v -2.05 h 3.9375 v -1.65 h -5.7625 v 8.625 z");
 }
 .stickerIcon-3Jx5SE > path {
-  d: path("M 12.0002 0.6626 V 5.402 Q 13.2994 6.7009 14.5986 7.9998 H 19.3393 L 20 8 L 12 0 L 12.0002 0.6626 Z M 14 9 Q 13 8 11 6 V 0.0583 H 1.994 H 0 V 18.0041 V 20 H 17.9457 H 19.9397 V 9 H 15 Z M 11.9998 12.2201 C 11.9998 13.3245 11.1046 14.2198 10.0002 14.2198 C 8.8958 14.2198 8.0005 13.3245 8.0005 12.2201 H 6.6674 C 6.6674 14.0607 8.1595 15.5529 10.0002 15.5529 C 11.8408 15.5529 13.3329 14.0607 13.3329 12.2201 H 11.9998 Z M 4.4456 13.331 C 4.4456 13.9446 3.9482 14.442 3.3347 14.442 C 2.7211 14.442 2.2237 13.9446 2.2237 13.331 C 2.2237 12.7175 2.7211 12.2201 3.3347 12.2201 C 3.9482 12.2201 4.4456 12.7175 4.4456 13.331 Z M 16.6657 14.442 C 17.2793 14.442 17.7766 13.9446 17.7766 13.331 C 17.7766 12.7175 17.2793 12.2201 16.6657 12.2201 C 16.0522 12.2201 15.5548 12.7175 15.5548 13.331 C 15.5548 13.9446 16.0522 14.442 16.6657 14.442 Z");
+  d: path("M12 0V5.402L14.5986 8 20 8ZM14 9Q13 8 11 6V0H1V18.0041 20H20V9H15ZM11.9998 12.2201C11.9998 13.3245 11.1046 14.2198 10.0002 14.2198 8.8958 14.2198 8.0005 13.3245 8.0005 12.2201H6.6674C6.6674 14.0607 8.1595 15.5529 10.0002 15.5529 11.8408 15.5529 13.3329 14.0607 13.3329 12.2201H11.9998ZM4.4456 13.331C4.4456 13.9446 3.9482 14.442 3.3347 14.442 2.7211 14.442 2.2237 13.9446 2.2237 13.331 2.2237 12.7175 2.7211 12.2201 3.3347 12.2201 3.9482 12.2201 4.4456 12.7175 4.4456 13.331ZM16.6657 14.442C17.2793 14.442 17.7766 13.9446 17.7766 13.331 17.7766 12.7175 17.2793 12.2201 16.6657 12.2201 16.0522 12.2201 15.5548 12.7175 15.5548 13.331 15.5548 13.9446 16.0522 14.442 16.6657 14.442Z");
 }
 .icon-2xnN2Y:has(path[d^="M19 3H4.99"]) > path,
 .inboxIcon-1XO7FO > path {
   d: path("M 19 3 H 4.99 H 3.01 L 3 19 V 21 H 19 H 21 V 5 V 3 Z M 19 15 H 15 L 15 18 L 9 18 L 9 15 H 4.99 V 5 H 19 V 15 Z");
 }
 .icon-2xnN2Y:has(path[d^="M12 2C6.486 2 2 6.487 2 12C2 17.515 6.486 22 12 22C17.514 22 22 17.515 22 12C22 6.487 17.514 2 12 2ZM12 18.25C11.31 18.25 10.75 17.691 10.75 17C10.75 16.31 11.31 15.75 12 15.75C12.69 15.75 13.25 16.31 13.25 17C13.25 17.691 12.69 18.25 12 18.25ZM13 13.875V15H11V12H12C13.104 12 14 11.103 14 10C14 8.896 13.104 8 12 8C10.896 8 10 8.896 10 10H8C8 7.795 9.795 6 12 6C14.205 6 16 7.795 16 10C16 11.861 14.723 13.429 13 13.875Z"]) > path {
-  d: path("M12 2 2 2 2 22 20 22 20 2ZM12 20H10V17H13V20ZM15 11 14 11 14 11 13 11V15H11L10 15 10 11 11 11 11 10 12 10 12 7 9 7 9 10H6L6 7 7 7 7 6 8 6 8 5 13 5 13 6 14 6 14 7 15 7Z");
+  d: path("M12 2 1 2 3 4 5 4 5 6 3 6 3 4 1 2 1 23 3 21 3 19 5 19 5 21 3 21 1 23 22 23 20 21 18 21 18 19 20 19 20 21 22 23 22 2 20 4 20 6 18 6 18 4 20 4 22 2ZM13 20H10V17H13V20ZM16 11 15 11 15 12 13 12 13 13 13 15 12 15h-2L10 12 10 12 10 11 12 11 12 10 13 10 13 7 10 7 10 10H7L7 7 8 7 8 6 9 6 9 5 14 5 14 6 15 6 15 7 16 7Z");
 }
 .icon-2xnN2Y:has(path[d^="M14 8.00"]) > path {
   d: path("M 14 8.006 L 14 12 L 6 12 L 6 4 L 14 4 Z M 2 19.006 L 2 14 L 18 14 V 20.006 H 2 V 19.006 Z");
@@ -1762,7 +1767,7 @@ button[aria-label="Send a gift"] {
   d: path("M10 2 2 2V20 22H6 8V17 15H4V4L12 4 20 4V15H18 16V20 22H20 22V2L14 2Z");
 }
 [d="M14.99 11C14.99 12.66 13.66 14 12 14C10.34 14 9 12.66 9 11V5C9 3.34 10.34 2 12 2C13.66 2 15 3.34 15 5L14.99 11ZM12 16.1C14.76 16.1 17.3 14 17.3 11H19C19 14.42 16.28 17.24 13 17.72V22H11V17.72C7.72 17.23 5 14.41 5 11H6.7C6.7 14 9.24 16.1 12 16.1Z"] {
-  fill: var(--sec);
+  fill: var(--third);
   d: path("M15 11V14H9V5 2H15L15 11ZM15 15 18 11H20L14 18V22H10V18L4 11H6L9 15Z");
 }
 [d="M0.5,0 L0.5,1.5 C0.5,5.65 2.71,9.28 6,11.3 L6,16 L21,16 L21,14 C21,11.34 15.67,10 13,10 C13,10 12.83,10 12.75,10 C8,10 4,6 4,1.5 L4,0 L0.5,0 Z M13,0 C10.790861,0 9,1.790861 9,4 C9,6.209139 10.790861,8 13,8 C15.209139,8 17,6.209139 17,4 C17,1.790861 15.209139,0 13,0 Z"] {
@@ -1832,6 +1837,7 @@ button[aria-label="Send a gift"] {
   d: path("M 21.1169 1.116 L 22.8839 2.884 L 19.7679 6 L 22.8839 9.116 L 21.1169 10.884 L 17.9999 7.768 L 14.8839 10.884 L 13.1169 9.116 L 16.2329 6 L 13.1169 2.884 L 14.8839 1.116 L 17.9999 4.232 L 21.1169 1.116 Z M 18 22 H 13 L 2 11 V 6 V 5 H 7 H 8 V 10 V 11 H 6 L 13 18 V 17 V 16 H 18 H 19 V 21 V 22 Z");
 }
 [d="M2 4.5C2 3.397 2.897 2.5 4 2.5H20C21.103 2.5 22 3.397 22 4.5V15.5C22 16.604 21.103 17.5 20 17.5H13V19.5H17V21.5H7V19.5H11V17.5H4C2.897 17.5 2 16.604 2 15.5V4.5ZM13.2 14.3375V11.6C9.864 11.6 7.668 12.6625 6 15C6.672 11.6625 8.532 8.3375 13.2 7.6625V5L18 9.6625L13.2 14.3375Z"] {
+  fill: var(--third);
   d: path("M 2 4.5 V 2.5 H 20 H 22 V 15.5 V 17.5 H 13 V 19.5 H 17 V 21.5 H 7 V 19.5 H 11 V 17.5 H 4 H 2 V 4.5 Z M 13.2 14.3375 V 11.6 L 6 11.6 L 6 7.6625 L 13.2 7.6625 V 5 L 18 9.6625 L 13.2 14.3375 Z");
 }
 [d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"] {
@@ -2043,6 +2049,9 @@ button[aria-label="Send a gift"] {
 }
 [d="M12.1151 2.00065C12.0768 2.00022 12.0384 2 12 2C6.477 2 2 6.477 2 12C2 17.522 6.477 22 12 22C17.523 22 22 17.522 22 12C22 11.9616 21.9998 11.9232 21.9993 11.8849C21.1882 12.1737 20.3146 12.3309 19.4043 12.3309C15.1323 12.3309 11.6691 8.86771 11.6691 4.59565C11.6691 3.68536 11.8263 2.8118 12.1151 2.00065ZM7.92105 11.8023C7.92105 12.7107 7.18468 13.4471 6.27631 13.4471C5.36795 13.4471 4.63158 12.7107 4.63158 11.8023C4.63158 10.894 5.36795 10.1576 6.27631 10.1576C7.18467 10.1576 7.92105 10.894 7.92105 11.8023ZM10.5217 14.5171C10.3859 13.9893 9.84786 13.6716 9.32005 13.8074C8.79223 13.9433 8.47448 14.4813 8.61033 15.0091C9.01196 16.5695 10.4273 17.7236 12.1147 17.7236C13.8021 17.7236 15.2174 16.5695 15.6191 15.0091C15.7549 14.4813 15.4372 13.9433 14.9093 13.8074C14.3815 13.6716 13.8435 13.9893 13.7077 14.5171C13.525 15.2267 12.8797 15.7499 12.1147 15.7499C11.3497 15.7499 10.7044 15.2267 10.5217 14.5171Z"] {
   d: path("M12 2 2 2 2 22 22 22 22 12 12 12ZM7.9211 11.8023C7.9211 12.7107 7.1847 13.4471 6.2763 13.4471 5.368 13.4471 4.6316 12.7107 4.6316 11.8023 4.6316 10.894 5.368 10.1576 6.2763 10.1576 7.1847 10.1576 7.9211 10.894 7.9211 11.8023ZM10.5217 14.5171C10.3859 13.9893 9.8479 13.6716 9.3201 13.8074 8.7922 13.9433 8.4745 14.4813 8.6103 15.0091 9.012 16.5695 10.4273 17.7236 12.1147 17.7236 13.8021 17.7236 15.2174 16.5695 15.6191 15.0091 15.7549 14.4813 15.4372 13.9433 14.9093 13.8074 14.3815 13.6716 13.8435 13.9893 13.7077 14.5171 13.525 15.2267 12.8797 15.7499 12.1147 15.7499 11.3497 15.7499 10.7044 15.2267 10.5217 14.5171Z");
+}
+[d="M6 2C3.79086 2 2 3.79086 2 6V18C2 20.2091 3.79086 22 6 22H18C20.2091 22 22 20.2091 22 18V6C22 3.79086 20.2091 2 18 2H6ZM10 8C10 6.8952 9.1032 6 8 6C6.8944 6 6 6.8952 6 8C6 9.1056 6.8944 10 8 10C9.1032 10 10 9.1056 10 8ZM9 14L6 18H18L15 11L11 16L9 14Z"] {
+  d: path("M22 2H2V22H22ZM10 6 6 6 6 10 10 10ZM9 14 6 18H18L15 11 11 16 9 14Z");
 }
 [d="M18.7004 11.0733V4.20411L14.4456 0H3.8556C3.36366 0.000630619 2.89205 0.193989 2.5442 0.537669C2.19635 0.881349 2.00064 1.3473 2 1.83333V18.3333C2.00056 18.8194 2.19625 19.2854 2.54412 19.6291C2.89199 19.9728 3.36364 20.1661 3.8556 20.1667H13.7669C13.3284 19.2602 13.112 18.2644 13.1355 17.26C13.159 16.2555 13.4215 15.2707 13.902 14.3851C14.3824 13.4996 15.0672 12.7384 15.9008 12.163C16.7345 11.5876 17.6936 11.2143 18.7004 11.0733V11.0733ZM10.3502 13.75H4.7834V11.9167H10.3502V13.75ZM13.1336 10.0833H4.7834V8.25H13.1336V10.0833ZM13.1336 0.916667L17.7726 5.5H13.1336V0.916667Z"] {
   d: path("M19 13V4L14.5 0H2V19H13ZM11 14H5V12H11ZM13 10H5V8H13ZM13 1 18 6H13Z");
@@ -2465,7 +2474,8 @@ button[aria-label="Send a gift"] {
 }
 .theme-dark .inviteRowName-3H4s_c,
 .phoneVerificationModal-3OHeBt .title-2UGWXc,
-.title-3t5FBr {
+.title-3t5FBr,
+.attachment-1PZZB2 {
   color: var(--third);
 }
 .noticeWrapper-8z511t svg.platformIcon-OrI7z3 > path {
@@ -2480,7 +2490,6 @@ button[aria-label="Send a gift"] {
 .selectorButton-3fWZ0_ {
   background-color: var(--bg) !important;
 }
-.attachment-1PZZB2,
 .filename-3A5bVl,
 .themed-1LCNAV .textLeft-1Noen0,
 .themed-1LCNAV .textRight-2IW704,
@@ -2546,15 +2555,15 @@ button[aria-label="Send a gift"] {
   -webkit-mask: unset;
   mask: unset;
 }
-.applicationStreamingHoverText-ETJLXZ {
+.applicationStreamingHoverText-ETJLXZ,
+.base-3IDx3L {
   color: var(--third);
 }
 .base-3IDx3L {
-  color: var(--third);
   background-color: var(--bg) !important;
 }
 .base-3IDx3L > svg > path {
-  fill: var(--bg2);
+  fill: var(--third);
 }
 .friend-8ZraY7 .avatar-135A-D > svg > rect {
   x: 24;
@@ -2817,12 +2826,17 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .pageBody-29jwEZ > div > h2,
 .reaction-3vwAF2:hover .reactionCount-26U4As,
 .button-ejjZWC:hover .contents-3NembX,
-.barButtonBase-Sk2mdB {
+.barButtonBase-Sk2mdB,
+.rem-3kT9wc.botTag-7aX5WZ {
   color: var(--third) !important;
 }
 .theme-dark .footerSeparator-3U8YsT,
 .guildBoostCtaBoost-3SH673 {
   box-shadow: none;
+}
+.avatarSpeaking-36V2PN,
+.border-2BJQjd.speaking-3RWJBr {
+  -webkit-box-shadow: inset 0 0 0 2px var(--third);
 }
 .top-Ktfr_T .themed-qqoYp3.item-2GWPIy:hover {
   border-bottom: none;
@@ -2839,7 +2853,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .tabBar-1_P75h,
 .optionButtonWrapper-2lbogO,
 .reaction-3vwAF2,
-.rolePillBorder-3R4Bb5 {
+.rolePillBorder-3R4Bb5,
+.grabber-3R-Rx9 {
   border: none;
 }
 .pricePerInterval-1HgDkM,
@@ -2867,7 +2882,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 }
 .theme-dark .checkbox-1LuCGM,
 .recommendedTierHighlight-1vvme_:before,
-.theme-dark .checkbox-1LuCGM {
+.theme-dark .checkbox-1LuCGM,
+.overlay-2-HuaL {
   border-color: var(--sec) !important;
 }
 .recommendedServerCard-3f-92z:before,
@@ -2877,7 +2893,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .menu-2-eHMB div[role=separator],
 .headerWave-3sTT0Z,
 .bodyWave-wQyWfY,
-.headerWave-3sTT0Z {
+.headerWave-3sTT0Z,
+.divider-1bJsnZ {
   display: none !important;
 }
 .lookLink-13iF2K .contents-3NembX,
@@ -2902,7 +2919,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .header-1aIywd,
 .recommendedTierHighlightTag-j-ZGmE,
 .premiumBadgeWrapper-3KlQro,
-.chat-2ZfjoI {
+.chat-2ZfjoI,
+.container-1ILvLB {
   background: var(--bg2) !important;
 }
 .selectYourAnswer-MqT8vm
@@ -2997,9 +3015,12 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .recommendedTierHighlight-1vvme_:before,
 .channelRow-4X_3fi:hover:not(.disabled-3cfocy),
 .optionButtonWrapper-2lbogO.selected-KQBgNS,
+.clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover,
 .planOptionDiscount-2nex9n,
 .prompt-1sE27N:hover,
+.container-1ILvLB,
 .checkIcon-3eAeN_,
+.grabber-3R-Rx9,
 .rolePillBorder-3R4Bb5,
 .base-3IDx3L,
 .reactionTooltip-1qrpUf,
@@ -3009,8 +3030,13 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .contentWrapper-2f9yME,
 .numberBadge-37OJ3S,
 .emojiSection-3QtaWO,
+.scroller-18M1mG,
+.inner-2pOSmK,
 .reactionInner-1po5__:hover,
-.premiumBadgeWrapper-3KlQro {
+.premiumBadgeWrapper-3KlQro,
+.rem-3kT9wc.botTag-7aX5WZ,
+.attachment-1PZZB2,
+.file-input {
   -webkit-box-shadow: inset 0 0 0 1px var(--third) !important;
 }
 .popout-3gby1q,
@@ -3038,6 +3064,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .wrapper-2SplAX,
 .container-5BK5-N,
 .addReactButton-3bSQb6:hover,
+.nonMediaAttachmentItem-1e7YaR,
+.container-18GwIk,
 .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
   box-shadow: 0 0 0 1px var(--third) !important;
 }
@@ -3045,7 +3073,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .button-ejjZWC .contents-3NembX,
 .reactionInner-1po5__,
 .addReactButton-3bSQb6,
-.reaction-102jx9 {
+.reaction-102jx9,
+.attachment-1PZZB2 {
   border: none;
 }
 .slider-HJFN2i > svg > path {
@@ -3070,6 +3099,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .emojiPickerHasTabWrapper-LoluYe .categoryList-2qRrlj,
 .outer-1KB3kA .input-1nrc5P,
 .progressBarMarker-84rglL,
+.base-2v-uc0,,
 .container-5BK5-N {
   background: none;
 }
@@ -3088,7 +3118,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .colorable-3rVGna > svg,
 .contextMenuNub-NuTZ_U,
 .button-ejjZWC .contents-3NembX,
-.tierCard-2HoGkY {
+.tierCard-2HoGkY,
+.attachment-1PZZB2 {
   background: transparent !important;
 }
 .acronym-2zrAHN,
@@ -3098,10 +3129,19 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .categoryItemDefaultCategory-3haEDq,
 .guildIcon-2SUGiq,
 .planOptionDiscount-2nex9n,
+.icon-mJhEWn,
 .optionButtonWrapper-2lbogO.selected-KQBgNS,
 .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4),
 .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover:not(.actionButton-iarQTd),
 .expandedFolderBackground-1kSAf6,
+.newMosaicStyle-2jdUaP .textContainer-36wgKK,
+.newMosaicStyle-2jdUaP .footer-GXWBBp,
+.hljs,
+.clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover,
+.grabber-3R-Rx9,
+.footer-GXWBBp,
+.rem-3kT9wc.botTag-7aX5WZ,
+.autocomplete-3NRXG8,
 .reactionInner-YJjOtT,
 .diversitySelectorOptions-3DhNYs,
 .theme-dark .container-2IKOsH,
@@ -3125,6 +3165,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .bd-search-wrapper,
 .chatHeaderBar-31g1mU,
 .wrapper-2SplAX,
+.iconWrapper-3FqQ75,
 .tooltip-33Jwqe,
 .emojiSection-3QtaWO,
 .soundButtonSettingContainer-3G4JEB,
@@ -3161,7 +3202,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .recommendedServerCard-3f-92z,
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover,
 .container-iA3Qrz,
-.iconWrapper-3FqQ75,
 .button-ejjZWC,
 .searchResult-O9NDji,
 .pill-3pRQlO.clickable-3YTfAq,
@@ -3326,6 +3366,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .tutorialIcon-25VF3Q,
 .wrapper-22ayhK,
 .row-1qtctT:hover,
+.header-3_zmOb,
 .wrapper-2RrXDg .section-3G9aLW {
   background-color: var(--bg) !important;
 }
@@ -3434,7 +3475,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .folderIconWrapper-1oRIZr:hover,
 .grid-21dB-S,
 .noListContainer-1Pa1Gf,
-.header-3_zmOb,
 .hover-3OQb9Y:hover,
 .icon-2TbMdT,
 .icon-2TbMdT:hover,
@@ -3549,7 +3589,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .applicationStreamingPreviewWrapper-7j27t8,
 .assetsLargeImage-8U5dlz,
 .assetsSmallImage-2JNB1y,
-.attachment-1PZZB2,
 .attachment-1PZZB2.newMosaicStyle-35X6XO,
 .audioControls-3fmemK,
 .autocomplete-3jLKbj,
@@ -3694,11 +3733,14 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .contentWrapper-2f9yME.isBurstReactionPicker-3h5fqV,
 .contentWrapper-3vHNP2,
 .copyInput-3AbKWB,
+.editingContainer-1_nnqZ,
 .countContainer-3DOo5v,
 .countContainer-3uQ087,
 .customStatusSection-2TRu5f,
 .detailsBlock-24pLFz,
+.rem-3kT9wc.botTag-7aX5WZ,
 .deny-1GO6vI,
+.container-1ILvLB,
 .descriptionBox-SKGNgB,
 .divider-MZkkle,
 .earningsPreviewContainer-2I6S8Z,
@@ -3895,6 +3937,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .px-MnE_OR.botTag-7aX5WZ,
 .qualitySettingsContainer-2LjkfM,
 .quickSelectPopout-2F0PXw,
+.overlay-2-HuaL,
 .quickswitcher-pKcM9U,
 .radioBar-1XgZqD,
 .radioBar-1XgZqD.radioPositionLeft-27wZ8M,
@@ -3918,6 +3961,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) .circleButton-2Yr5A1,
 .root-1CAIjD,
 .root-1e2tfc,
+.attachment-1PZZB2,
 .root-2uUafN,
 .root-g14mjS,
 .roundedBanner-uNt2w-,
