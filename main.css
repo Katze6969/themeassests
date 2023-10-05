@@ -636,7 +636,7 @@
   color: var(--sec);
 }
 .circleIconButton-1VxDrg.selected-2r1Hvo {
-  color: var(--bg2);
+  color: var(--sec);
 }
 .tabBar-2hXqzU {
   background-color: transparent;
@@ -1767,7 +1767,7 @@ button[aria-label="Send a gift"] {
   d: path("M10 2 2 2V20 22H6 8V17 15H4V4L12 4 20 4V15H18 16V20 22H20 22V2L14 2Z");
 }
 [d="M14.99 11C14.99 12.66 13.66 14 12 14C10.34 14 9 12.66 9 11V5C9 3.34 10.34 2 12 2C13.66 2 15 3.34 15 5L14.99 11ZM12 16.1C14.76 16.1 17.3 14 17.3 11H19C19 14.42 16.28 17.24 13 17.72V22H11V17.72C7.72 17.23 5 14.41 5 11H6.7C6.7 14 9.24 16.1 12 16.1Z"] {
-  fill: var(--third);
+  fill: var(--sec);
   d: path("M15 11V14H9V5 2H15L15 11ZM15 15 18 11H20L14 18V22H10V18L4 11H6L9 15Z");
 }
 [d="M0.5,0 L0.5,1.5 C0.5,5.65 2.71,9.28 6,11.3 L6,16 L21,16 L21,14 C21,11.34 15.67,10 13,10 C13,10 12.83,10 12.75,10 C8,10 4,6 4,1.5 L4,0 L0.5,0 Z M13,0 C10.790861,0 9,1.790861 9,4 C9,6.209139 10.790861,8 13,8 C15.209139,8 17,6.209139 17,4 C17,1.790861 15.209139,0 13,0 Z"] {
@@ -1997,6 +1997,9 @@ button[aria-label="Send a gift"] {
 [d="M6.7 11H5C5 12.19 5.34 13.3 5.9 14.28L7.13 13.05C6.86 12.43 6.7 11.74 6.7 11Z"] {
   fill: var(--sec);
   d: path("M7 11H5L7 15 9 15Z");
+}
+[d="M14.99 11C14.99 12.66 13.66 14 12 14C10.34 14 9 12.66 9 11V5C9 3.34 10.34 2 12 2C13.66 2 15 3.34 15 5L14.99 11ZM12 16.1C14.76 16.1 17.3 14 17.3 11H19C19 14.42 16.28 17.24 13 17.72V21H11V17.72C7.72 17.23 5 14.41 5 11H6.7C6.7 14 9.24 16.1 12 16.1ZM12 4C11.2 4 11 4.66667 11 5V11C11 11.3333 11.2 12 12 12C12.8 12 13 11.3333 13 11V5C13 4.66667 12.8 4 12 4Z"] {
+  display: none;
 }
 [d="M7.19999 18C7.19999 17.3364 6.77 16.8 6.24019 16.8H3.3598C2.82999 16.8 2.39999 17.3364 2.39999 18V20.4C2.39999 21.0636 2.82999 21.6 3.3598 21.6H6.23923C6.76904 21.6 7.19903 21.0636 7.19903 20.4V18H7.19999Z"] {
   d: path("M7.2 18V16.8H2.4V21.6H7.199V18H7.2Z")
@@ -2827,6 +2830,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .reaction-3vwAF2:hover .reactionCount-26U4As,
 .button-ejjZWC:hover .contents-3NembX,
 .barButtonBase-Sk2mdB,
+.icon-382itv,
 .rem-3kT9wc.botTag-7aX5WZ {
   color: var(--third) !important;
 }
@@ -2854,7 +2858,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .optionButtonWrapper-2lbogO,
 .reaction-3vwAF2,
 .rolePillBorder-3R4Bb5,
-.grabber-3R-Rx9 {
+.grabber-3R-Rx9,
+.messageGroupWrapper-1jf_7C {
   border: none;
 }
 .pricePerInterval-1HgDkM,
@@ -2865,7 +2870,8 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy,
 .navButton-Z_c6CC:hover,
 .newMessagesBar-1hF-9G,
-.buttonInner-3aRbcx {
+.buttonInner-3aRbcx,
+.newText-1EvoMa {
   color: var(--sec);
 }
 .buttonWhite-hd8TaTm,
@@ -2891,6 +2897,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .divider-1QVlfF,
 .resultsGroup-cfY57t:before,
 .menu-2-eHMB div[role=separator],
+.chat-1rZYgu:before,
 .headerWave-3sTT0Z,
 .bodyWave-wQyWfY,
 .headerWave-3sTT0Z,
@@ -2920,7 +2927,14 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .recommendedTierHighlightTag-j-ZGmE,
 .premiumBadgeWrapper-3KlQro,
 .chat-2ZfjoI,
-.container-1ILvLB {
+.container-1ILvLB,
+.sidebar-1tnWFu,
+.scroller-oTbAWP,
+.card-2TuZPZ,
+.new-3EJMgr,
+.container-1wv6C6,
+.scroller-RfJjkV,
+.submitContainer-1DHMA0 {
   background: var(--bg2) !important;
 }
 .selectYourAnswer-MqT8vm
@@ -3015,8 +3029,14 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .recommendedTierHighlight-1vvme_:before,
 .channelRow-4X_3fi:hover:not(.disabled-3cfocy),
 .optionButtonWrapper-2lbogO.selected-KQBgNS,
+.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4,
 .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover,
 .planOptionDiscount-2nex9n,
+.closedFolderIconWrapper-3tRb2d:hover,
+.container-1wv6C6,
+.card-2TuZPZ,
+.circleIconButton-1VxDrg.selected-2r1Hvo,
+.new-3EJMgr,
 .prompt-1sE27N:hover,
 .container-1ILvLB,
 .checkIcon-3eAeN_,
@@ -3034,8 +3054,13 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .inner-2pOSmK,
 .reactionInner-1po5__:hover,
 .premiumBadgeWrapper-3KlQro,
+.popoutContainer-2wbmiM,
 .rem-3kT9wc.botTag-7aX5WZ,
 .attachment-1PZZB2,
+.guildSection-2Zyzy8,
+.sansAttachButtonCreateThread-2hc_JA,
+.expandedFolderIconWrapper-3RwQpD,
+.clickable-2V8YKY[aria-selected=true]>.base-2v-uc0,
 .file-input {
   -webkit-box-shadow: inset 0 0 0 1px var(--third) !important;
 }
@@ -3066,6 +3091,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .addReactButton-3bSQb6:hover,
 .nonMediaAttachmentItem-1e7YaR,
 .container-18GwIk,
+.messagesPopoutWrap-3zryHW,
 .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
   box-shadow: 0 0 0 1px var(--third) !important;
 }
@@ -3106,7 +3132,9 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .userProfileInnerThemedWithBanner-25XGmz,
 .userProfileInner-1ngKnf:before,
 .overlayBackground-2aa7wt,
-.profileBadges-2pItdR {
+.profileBadges-2pItdR,
+.closedFolderIconWrapper-3tRb2d,
+.expandedFolderIconWrapper-3RwQpD {
   background: var(--bg);
 }
 .maskBackground-3UP7z9,
@@ -3118,8 +3146,11 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .colorable-3rVGna > svg,
 .contextMenuNub-NuTZ_U,
 .button-ejjZWC .contents-3NembX,
+.emojiButtonHovered-s44uQ8,
+.emojiButtonNormal-35P0_i,
 .tierCard-2HoGkY,
-.attachment-1PZZB2 {
+.attachment-1PZZB2,
+.iconWrapper-3plkqh {
   background: transparent !important;
 }
 .acronym-2zrAHN,
@@ -3133,10 +3164,19 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .optionButtonWrapper-2lbogO.selected-KQBgNS,
 .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4),
 .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover:not(.actionButton-iarQTd),
+.clickable-2V8YKY[aria-selected=true]>.base-2v-uc0,
+.header-1w9Q93,
+.emptyPlaceholder-1-a1LK,
+.footer-5ji8u1,
+.messagesPopout-eVzQcI,
+.messagesPopoutWrap-3zryHW,
+.emptyPlaceholder-1-a1LK.bottom-3-6RzO,
 .expandedFolderBackground-1kSAf6,
 .newMosaicStyle-2jdUaP .textContainer-36wgKK,
 .newMosaicStyle-2jdUaP .footer-GXWBBp,
 .hljs,
+.popoutContainer-2wbmiM,
+.guildSection-2Zyzy8,
 .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover,
 .grabber-3R-Rx9,
 .footer-GXWBBp,
@@ -3167,6 +3207,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .wrapper-2SplAX,
 .iconWrapper-3FqQ75,
 .tooltip-33Jwqe,
+.circleIconButton-1VxDrg.selected-2r1Hvo,
 .emojiSection-3QtaWO,
 .soundButtonSettingContainer-3G4JEB,
 .selectedBackground-1t6xXq,
@@ -3353,7 +3394,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .theme-dark .footer-31IekZ,
 .theme-dark .footer-VCsJQY,
 .theme-dark .root-g14mjS,
-.theme-dark .scroller-WSmht3,
 .theme-dark .subtitle-3v29zT,
 .theme-dark .uploadModal-2ie9O_,
 .theme-dark .wrapper-1ZcZW-:hover,
@@ -3367,6 +3407,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .wrapper-22ayhK,
 .row-1qtctT:hover,
 .header-3_zmOb,
+.theme-dark .scroller-WSmht3,
 .wrapper-2RrXDg .section-3G9aLW {
   background-color: var(--bg) !important;
 }
@@ -3443,6 +3484,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy,
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo,
 .theme-dark .message-G6O-Wv,
+.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4,
 .theme-dark .tab-2j5AEF.selected-2LAck8,
 .theme-dark .tierBody-1d3UiS,
 .topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
@@ -3467,7 +3509,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 }
 .active-136ioF,
 .button-3Vyz67:hover,
-.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4,
 .categoryPill-1zjNrr.selected-bLcqYK,
 .clipContainer-31nYlH,
 .colorDanger-2YLzLC,
@@ -3504,7 +3545,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .actionButton-3-B2x-:hover,
 .button-Jt-tIg,
 .centerTarget-S6BLFQ.dragOver-1OKbo2:before,
-.circleIconButton-1VxDrg.selected-2r1Hvo,
 .divider-D-Vspq,
 .grabber-2GQyvM,
 .iconBadge-3Mmg92,
@@ -3660,6 +3700,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .buttonInner-3aRbcx,
 .cameraWrapper-nG8dpo,
 .card-2TuZPZ,
+.new-3EJMgr,
 .card-2guEcY,
 .card-2xlCYc:hover,
 .card-2xymMp,
