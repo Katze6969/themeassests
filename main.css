@@ -874,6 +874,9 @@
 button[aria-label="Send a gift"] {
   display: none;
 }
+.link-39sEB3[href="/shop"] {
+  display: none;
+}
 .typeWindows-2-g3UY {
   position: relative;
 }
@@ -2832,7 +2835,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .interactive-MpGq2z:hover:hover,
 .pageBody-29jwEZ > div > h2,
 .reaction-3vwAF2:hover .reactionCount-26U4As,
-.button-ejjZWC:hover .contents-3NembX,
 .barButtonBase-Sk2mdB,
 .icon-382itv,
 .rem-3kT9wc.botTag-7aX5WZ {
@@ -2852,8 +2854,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 }
 .content-1OG56Q .separator-3Yurpx,
 .selectYourAnswer-MqT8vm,
-.divider-3nqZNm,
-.link-39sEB3[data-list-item-id="private-channels-uid_1562___shop"] {
+.divider-3nqZNm {
   display: none;
 }
 .recommendedTierHighlight-1vvme_:after, .recommendedTierHighlight-1vvme_:before,
@@ -2874,6 +2875,9 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
   color: #FFFFFF !important;
 }
 .top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy,
+.active-z80xEj .buttonWrapper-3YFQGJ,
+.buttonWrapper-3YFQGJ:hover,
+.button-2fCJ0o:hover,
 .navButton-Z_c6CC:hover,
 .newMessagesBar-1hF-9G,
 .buttonInner-3aRbcx,
@@ -2920,9 +2924,10 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 }
 .bd-filled-checkmark, .bd-addon-views .bd-view-button.selected svg,
 .button-ejjZWC:hover .contents-3NembX > svg > g > path {
-  fill: var(--third) !important;
+  fill: var(--sec) !important;
 }
-.button-ejjZWC .contents-3NembX > svg > g > path {
+.button-ejjZWC .contents-3NembX > svg > g > path,
+.button-ejjZWC:hover .contents-3NembX {
   fill: var(--sec);
 }
 .categoryList-2GgCrD,
