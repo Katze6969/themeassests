@@ -2558,7 +2558,8 @@ button[aria-label="Send a gift"] {
   box-shadow: inset 0 0 0 2px var(--third),inset 0 0 0 3px var(--primary-630);
 }
 .badgeLabel-2Eo2Mq,
-.userPopoutInner-nv9Y92 > svg > mask {
+.userPopoutInner-nv9Y92 > svg > mask,
+.threadSuggestionBar-3ExSyc {
   display: none;
 }
 .voiceSectionGuildImage-TctMOd {
