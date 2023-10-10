@@ -2014,6 +2014,9 @@ button[aria-label="Send a gift"] {
 [d="M14.4 10.6909C14.4 10.0876 13.9699 9.6 13.44 9.6H10.56C10.0301 9.6 9.60001 10.0876 9.60001 10.6909V20.5091C9.60001 21.1124 10.0301 21.6 10.56 21.6H13.44C13.9699 21.6 14.4 21.1124 14.4 20.5091V10.6909Z"] {
   d: path("M14.4 9.6H9.6V21.6H14.4Z");
 }
+[d="M14 13C14 14.1 13.1 15 12 15C10.9 15 10 14.1 10 13C10 11.9 10.9 11 12 11C13.1 11 14 11.9 14 13ZM8.5 20V19.5C8.5 17.8 9.94 16.5 12 16.5C14.06 16.5 15.5 17.8 15.5 19.5V20H8.5ZM7 13C7 10.24 9.24 8 12 8C14.76 8 17 10.24 17 13C17 13.91 16.74 14.75 16.31 15.49L17.62 16.25C18.17 15.29 18.5 14.19 18.5 13C18.5 9.42 15.58 6.5 12 6.5C8.42 6.5 5.5 9.42 5.5 13C5.5 14.18 5.82 15.29 6.38 16.25L7.69 15.49C7.26 14.75 7 13.91 7 13ZM2.5 13C2.5 7.75 6.75 3.5 12 3.5C17.25 3.5 21.5 7.75 21.5 13C21.5 14.73 21.03 16.35 20.22 17.75L21.51 18.5C22.45 16.88 23 15 23 13C23 6.93 18.07 2 12 2C5.93 2 1 6.93 1 13C1 15 1.55 16.88 2.48 18.49L3.77 17.74C2.97 16.35 2.5 14.73 2.5 13Z"] {
+  d: path("M14 13V15H10V11H14ZM8.5 20V16.5H15.5V20H8.5ZM5 15 12 7 19 15 20 14 12 5 4 14ZM2 14 12 3 22 14 23 13 12 1 1 13Z");
+}
 [d="M21.6 3.46667C21.6 2.8768 21.1699 2.4 20.64 2.4H17.76C17.2301 2.4 16.8 2.8768 16.8 3.46667V20.5333C16.8 21.1232 17.2301 21.6 17.76 21.6H20.64C21.1699 21.6 21.6 21.1232 21.6 20.5333V3.46667Z"] {
   d: path("M21.6 2.4H16.8V21.6H21.6Z");
 }
@@ -3078,6 +3081,9 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42,
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
 .wrapper-3kah-n:hover .childWrapper-1j_1ub,
+.hoverButton-36QWJk:hover,
+.controlIcon-1grhw_:hover,
+.bubble-3XikHF,
 .file-input {
   -webkit-box-shadow: inset 0 0 0 1px var(--third) !important;
 }
@@ -3162,12 +3168,14 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .option-ayUoaq:hover:after,
 .colorable-3rVGna > svg,
 .contextMenuNub-NuTZ_U,
-.button-ejjZWC .contents-3NembX,
+.button-ejjZWC,
+.contents-3NembX,
 .emojiButtonHovered-s44uQ8,
 .emojiButtonNormal-35P0_i,
 .tierCard-2HoGkY,
 .attachment-1PZZB2,
-.iconWrapper-3plkqh {
+.iconWrapper-3plkqh,
+.volumeButton-3IDSX- {
   background: transparent !important;
 }
 .acronym-2zrAHN,
@@ -3260,7 +3268,6 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .recommendedServerCard-3f-92z,
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover,
 .container-iA3Qrz,
-.button-ejjZWC,
 .searchResult-O9NDji,
 .pill-3pRQlO.clickable-3YTfAq,
 .mainCard-3KBsBI,
@@ -3317,6 +3324,9 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .colorable-3rVGna.white-11auuQ:hover,
 .colorable-3rVGna.primaryDark-2UJt1G .centerIcon-JYpTUi,
 .colorable-3rVGna.primaryDark-2UJt1G:not(.contextMenuNub-NuTZ_U),
+.hoverButton-36QWJk:hover,
+.hoverButton-36QWJk:focus,
+.hoverButton-36QWJk,
 .colorable-3rVGna.red-3T8maV .centerIcon-JYpTUi,
 .colorable-3rVGna.red-3T8maV,
 .container-1Lk8p7,
@@ -3424,9 +3434,16 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .wrapper-22ayhK,
 .row-1qtctT:hover,
 .header-3_zmOb,
+.bubble-3XikHF,
 .theme-dark .scroller-WSmht3,
 .wrapper-2RrXDg .section-3G9aLW {
   background-color: var(--bg) !important;
+}
+.imageDetailsAdded-sda9Fa
+.imageWrapper-oMkQl4,
+.bubble-3XikHF,
+.iconWrapper-XpfprW {
+    border-radius: var(--roundness) !important;
 }
 .additionalActionsIcon-1IPuHI,
 .background-3d_SjE,
