@@ -13,6 +13,9 @@
 .bd-button.bd-button-danger:hover {
   color: var(--third);
 }
+.repliedMessage-3Z6XBG:before {
+  border-top-left-radius: 0px;
+}
 .roleName-2ZJJYR {
   color: var(--sec);
 }
