@@ -13,9 +13,6 @@
 .bd-button.bd-button-danger:hover {
   color: var(--third);
 }
-.repliedMessage-3Z6XBG:before {
-  border-top-left-radius: 0px;
-}
 .roleName-2ZJJYR {
   color: var(--sec);
 }
@@ -1879,6 +1876,12 @@ button[aria-label="Send a gift"] {
 [d="M19.6,9l-4.2-0.4c-0.4,0-0.7-0.3-0.8-0.6l-1.6-3.9c-0.3-0.8-1.5-0.8-1.8,0L9.4,8.1C9.3,8.4,9,8.6,8.6,8.7L4.4,9 c-0.9,0.1-1.2,1.2-0.6,1.8L7,13.6c0.3,0.2,0.4,0.6,0.3,1l-1,4.1c-0.2,0.9,0.7,1.5,1.5,1.1l3.6-2.2c0.3-0.2,0.7-0.2,1,0l3.6,2.2 c0.8,0.5,1.7-0.2,1.5-1.1l-1-4.1c-0.1-0.4,0-0.7,0.3-1l3.2-2.8C20.9,10.2,20.5,9.1,19.6,9z M12,15.4l-3.8,2.3l1-4.3l-3.3-2.9 l4.4-0.4l1.7-4l1.7,4l4.4,0.4l-3.3,2.9l1,4.3L12,15.4z"] {
   d: path("M 21 9 L 15 9 L 12 2.9 L 9 9 L 3 9 L 7 13 L 5 20 L 12 17 L 19 20 L 17 13 Z M 12 15 L 7 18 L 9 13 L 6 10 L 10 10 L 12 6 L 14 10 L 18 10 L 15 13 L 17 18 Z");
 }
+[d="M19 1C19.552 1 20 1.447 20 2V3L23 2V6L20 5V6C20 6.553 19.552 7 19 7H15C14.448 7 14 6.553 14 6V2C14 1.447 14.448 1 15 1H19Z"] {
+  d: path("M20 1V3L23 2V6L20 5V7H14V1Z");
+}
+[d="M20 13.5V9H22V15.5C22 16.604 21.103 17.5 20 17.5H13V19.5H17V21.5H7V19.5H11V17.5H4C2.897 17.5 2 16.604 2 15.5V4.5C2 3.397 2.897 2.5 4 2.5H12V4.5H4V13.5H20Z"] {
+  d: path("M20 13.5V9H22V17.5H13V19.5H17V21.5H7V19.5H11V17.5H2V2.5H12V4.5H4V13.5H20Z");
+}
 [d="m 11.470703,0.625 c -1.314284,0 -2.3808593,1.0666594 -2.3808592,2.3808594 V 4.4335938 H 5.2792969 c -1.0476168,0 -1.8945313,0.85855 -1.8945313,1.90625 v 3.6191406 h 1.4179688 c 1.41905,0 2.5722656,1.1512126 2.5722656,2.5703126 0,1.4191 -1.1532156,2.572266 -2.5722656,2.572265 H 3.375 v 3.619141 c 0,1.0477 0.8566801,1.904297 1.9042969,1.904297 h 3.6191406 v -1.427734 c 0,-1.4189 1.1532235,-2.572266 2.5722655,-2.572266 1.41905,0 2.570313,1.153366 2.570313,2.572266 V 20.625 h 3.61914 c 1.047626,0 1.90625,-0.856597 1.90625,-1.904297 v -3.810547 h 1.427735 c 1.314292,0 2.380859,-1.066559 2.380859,-2.380859 0,-1.3143 -1.066567,-2.38086 -2.380859,-2.380859 H 19.566406 V 6.3398438 c 0,-1.0477002 -0.858624,-1.90625 -1.90625,-1.90625 H 13.851562 V 3.0058594 c 0,-1.3142 -1.066568,-2.3808594 -2.380859,-2.3808594 z"] {
   d: path("M 8.8984 1 V 4.4336 H 3.3848 V 9.959 H 7 L 7 15 H 3.375 V 20.625 H 8.8984 V 17 L 14 17 V 20.625 H 19.5664 V 15 H 23 L 23 10 H 19.5664 V 4.4336 H 13.8516 V 1 Z");
 }
@@ -2842,6 +2845,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .pageBody-29jwEZ > div > h2,
 .reaction-3vwAF2:hover .reactionCount-26U4As,
 .barButtonBase-Sk2mdB,
+.activityName-3YXl6e,
 .icon-382itv,
 .rem-3kT9wc.botTag-7aX5WZ {
   color: var(--third) !important;
@@ -2884,6 +2888,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .active-z80xEj .buttonWrapper-3YFQGJ,
 .buttonWrapper-3YFQGJ:hover,
 .button-2fCJ0o:hover,
+.playTime-3fSgOm,
 .navButton-Z_c6CC:hover,
 .newMessagesBar-1hF-9G,
 .buttonInner-3aRbcx,
@@ -3086,6 +3091,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .hoverButton-36QWJk:hover,
 .controlIcon-1grhw_:hover,
 .bubble-3XikHF,
+.streamPreview-I7itZ6,
 .file-input {
   -webkit-box-shadow: inset 0 0 0 1px var(--third) !important;
 }
@@ -3221,6 +3227,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .prompt-1sE27N,
 .checkIcon-3eAeN_,
 .innerWrapper-Eo2E86,
+.streamPreview-I7itZ6,
 .innerWrapper-MqFL7z,
 .topPerksCard-1znJI8,
 .lookFilled-GPyucw.select-Zz0IcO,
@@ -3446,6 +3453,9 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .bubble-3XikHF,
 .iconWrapper-XpfprW {
     border-radius: var(--roundness) !important;
+}
+.repliedMessage-3Z6XBG:before {
+  border-top-left-radius: 0px;
 }
 .additionalActionsIcon-1IPuHI,
 .background-3d_SjE,
@@ -3832,6 +3842,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .embedVideo-2ixt5A img,
 .embedVideo-2ixt5A video,
 .emojiItem-277VFM,
+.streamPreview-I7itZ6,
 .emojiPicker-6YCk8a,
 .emptyCard-KDifrB,
 .container-_dQaft,
