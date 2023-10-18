@@ -739,7 +739,10 @@
 .wrapper-3kah-n:hover .childWrapper-1j_1ub,
 .childWrapper-1j_1ub {
   background-color: var(--bg);
-  color: var(--bg);
+}
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.childWrapper-1j_1ub {
+  color: var(--third);
 }
 #bd-pub-button {
   color: var(--bg);
