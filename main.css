@@ -2900,7 +2900,9 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .buttonInner-3aRbcx,
 .newText-1EvoMa,
 .closeIcon-3xe5xL:hover,
-.tagsContainer-3rSFH5 .tagsButton-2EKn70 .tagsButtonInner-QgpYNg {
+.tagsContainer-3rSFH5 .tagsButton-2EKn70 .tagsButtonInner-QgpYNg,
+.unreadBottom-3Ojk6R .unreadBar-elBRZx:before,
+.bar-2eAyLE > span {
   color: var(--sec) !important;
 }
 .buttonWhite-hd8TaTm,
@@ -2938,6 +2940,10 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .tierCardCurrentTier-2zaZoV {
   background-image: none;
 }
+.total-1c5KCN:after,
+.unread-XRkyaQ {
+  display: none;
+}
 .bd-addon-views .bd-view-button svg {
   fill: #FFFFFF;
 }
@@ -2950,13 +2956,16 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
   fill: var(--sec);
 }
 .categoryList-2GgCrD,
-.inspector-DFKXwB {
+.inspector-DFKXwB,
+.users-2JoyGL,
+.total-1c5KCN {
   background-color: transparent;
 }
 .header-1aIywd,
 .recommendedTierHighlightTag-j-ZGmE,
 .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42,
 .focused-3v9Ulm, .item-1Mjtru:hover:not(.disabled-Lzz-qs),
+.unreadBottom-3Ojk6R .unreadBar-elBRZx:before,
 .premiumBadgeWrapper-3KlQro,
 .chat-2ZfjoI,
 .container-1ILvLB,
@@ -3142,6 +3151,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .nonMediaAttachmentItem-1e7YaR,
 .container-18GwIk,
 .messagesPopoutWrap-3zryHW,
+.wrapper-2fEmwW,
 .uploadInput-3fblkw:hover,
 .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
   box-shadow: 0 0 0 1px var(--third) !important;
@@ -3756,6 +3766,7 @@ div:not(.avatarWrapper-1B9FTW) .mask-1y0tyc > svg > mask > rect:first-child {
 .bd-select .bd-select-options,
 .bd-select,
 .bd-switch-body,
+.wrapper-2fEmwW,
 .bd-toast,
 .bd-toast.toast-success.icon,
 .bd-tooltip,
