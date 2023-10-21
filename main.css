@@ -2642,7 +2642,11 @@ button[aria-label="Send a gift"] {
 .pointerEvents-2KjWnj[width="16"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
   x: 70;
   y: 70;
-  }
+}
+.pointerEvents-2KjWnj[width="16"] {
+  x: 70;
+  y: 70;
+}
 .userPopout-2j1gM4 .mask-1y0tyc > svg > mask > rect:first-child {
   x: 18;
   y: 14 !important;
