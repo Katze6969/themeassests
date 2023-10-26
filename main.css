@@ -647,6 +647,7 @@
   color: var(--sec);
 }
 .circleIconButton_d8df29.selected__5250e,
+.circleIconButton_d8df29,
 .avatar__7c789 > svg > rect {
   display: none !important;
 }
@@ -1145,8 +1146,9 @@ button[aria-label="Send a gift"] {
   color: var(--third);
 }
 .content_d67847 {
-  background-color: transparent;
+  background-color: var(--bg) !important;
   color: var(--third) !important;
+  border-radius: var(--roundness) !important;
 }
 .hasQuery__14839 .selectMessage__51754 {
   color: var(--third);
