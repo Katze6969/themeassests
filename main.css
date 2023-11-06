@@ -896,6 +896,10 @@ button[aria-label="Send a gift"] {
 }
 .typeWindows__5fa63 {
   position: relative;
+  background-color: var(--bg);
+}
+.withFrame__485f4 {
+  
 }
 .wordmark__0d178 {
   display: flex;
@@ -2380,6 +2384,12 @@ button[aria-label="Send a gift"] {
 .popoutText__56f7e.popoutTextDetails__94a41,
 .colorDefault__0b482,
 .body__13cde,
+.nameTagSmall__02127,
+.customStatusText_ee5413,
+.discriminator_a801dd,
+.userInfoText__5f822,
+.lineClamp2Plus_d4306b,
+.nameTag__7814f,
 .note__35490 {
   color: var(--sec) !important;
 }
@@ -2387,6 +2397,7 @@ button[aria-label="Send a gift"] {
 .accountAddInner_d34c25,
 .connectContainer__8050b > div a,
 .connectionAccountLabelContainer__9eea3,
+.connectedAccountNameText__00810,
 .marketingLogoIcon__3b418,
 .cardText_c116a3,
 .cardText__2fe30,
@@ -2397,6 +2408,8 @@ button[aria-label="Send a gift"] {
 .header_ffc801,
 .footer-26kPv_ > h2,
 .emptyHeader_eeafcc,
+.text-lg-semibold__18f10,
+.eyebrow_f53856,
 .arrow_e1c67a,
 .guildNameText__16f3c,
 .theme-dark .tooltip__01384, .theme-light .tooltip__01384,
@@ -2404,7 +2417,8 @@ button[aria-label="Send a gift"] {
 .title__73f9a,
 .heading-xxl-extrabold__63651,
 .mainChannelInfo__6a863 .title__2cf9b,
-.userTagUsernameBase__75fb1 {
+.userTagUsernameBase__75fb1,
+.header__123bf {
   color: var(--third) !important;
 }
 .theme-dark .activityProfile__61b44 .activityName__47e51, .theme-dark .activityProfile__61b44 .content_d7cb7f, .theme-dark .activityProfile__61b44 .details__445eb, .theme-dark .activityProfile__61b44 .name_b6124d, .theme-dark .activityProfile__61b44 .nameNormal__1d540, .theme-dark .activityProfile__61b44 .nameWrap__7263f, .theme-dark .activityProfileV2__4de28 .activityName__47e51, .theme-dark .activityProfileV2__4de28 .content_d7cb7f, .theme-dark .activityProfileV2__4de28 .details__445eb, .theme-dark .activityProfileV2__4de28 .name_b6124d, .theme-dark .activityProfileV2__4de28 .nameNormal__1d540, .theme-dark .activityProfileV2__4de28 .nameWrap__7263f, .theme-dark .activityUserPopout_c7e67d .activityName__47e51, .theme-dark .activityUserPopout_c7e67d .content_d7cb7f, .theme-dark .activityUserPopout_c7e67d .details__445eb, .theme-dark .activityUserPopout_c7e67d .name_b6124d, .theme-dark .activityUserPopout_c7e67d .nameNormal__1d540, .theme-dark .activityUserPopout_c7e67d .nameWrap__7263f, .theme-dark .activityUserPopoutV2__32328 .activityName__47e51, .theme-dark .activityUserPopoutV2__32328 .content_d7cb7f, .theme-dark .activityUserPopoutV2__32328 .details__445eb, .theme-dark .activityUserPopoutV2__32328 .name_b6124d, .theme-dark .activityUserPopoutV2__32328 .nameNormal__1d540, .theme-dark .activityUserPopoutV2__32328 .nameWrap__7263f, .theme-light .activityProfile__61b44 .activityName__47e51, .theme-light .activityProfile__61b44 .content_d7cb7f, .theme-light .activityProfile__61b44 .details__445eb, .theme-light .activityProfile__61b44 .name_b6124d, .theme-light .activityProfile__61b44 .nameNormal__1d540, .theme-light .activityProfile__61b44 .nameWrap__7263f, .theme-light .activityProfileV2__4de28 .activityName__47e51, .theme-light .activityProfileV2__4de28 .content_d7cb7f, .theme-light .activityProfileV2__4de28 .details__445eb, .theme-light .activityProfileV2__4de28 .name_b6124d, .theme-light .activityProfileV2__4de28 .nameNormal__1d540, .theme-light .activityProfileV2__4de28 .nameWrap__7263f, .theme-light .activityUserPopout_c7e67d .activityName__47e51, .theme-light .activityUserPopout_c7e67d .content_d7cb7f, .theme-light .activityUserPopout_c7e67d .details__445eb, .theme-light .activityUserPopout_c7e67d .name_b6124d, .theme-light .activityUserPopout_c7e67d .nameNormal__1d540, .theme-light .activityUserPopout_c7e67d .nameWrap__7263f, .theme-light .activityUserPopoutV2__32328 .activityName__47e51, .theme-light .activityUserPopoutV2__32328 .content_d7cb7f, .theme-light .activityUserPopoutV2__32328 .details__445eb, .theme-light .activityUserPopoutV2__32328 .name_b6124d, .theme-light .activityUserPopoutV2__32328 .nameNormal__1d540, .theme-light .activityUserPopoutV2__32328 .nameWrap__7263f,
@@ -2869,7 +2883,8 @@ div:not(.avatarWrapper_ba5175) .mask__1979f > svg > mask > rect:first-child {
 .activityName__47e51,
 .icon__7ed2b,
 .rem__931aa.botTag__4211a,
-.closeIcon-3xe5xL {
+.closeIcon-3xe5xL,
+.header__4080b {
   color: var(--third) !important;
 }
 .theme-dark .footerSeparator__57d95,
@@ -3002,6 +3017,8 @@ div:not(.avatarWrapper_ba5175) .mask__1979f > svg > mask > rect:first-child {
 .scroller_e9501c,
 .submitContainer_b4471d,
 .container_ca50b9,
+.list__5ced9,
+.container__7940a,
 .appMount_fae9dd {
   background: var(--bg2) !important;
 }
@@ -3149,7 +3166,9 @@ div:not(.avatarWrapper_ba5175) .mask__1979f > svg > mask > rect:first-child {
 .peopleListItem_d14722:hover,
 .calendarPicker__5c474 .react-datepicker__day:hover,
 .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--selected,
-.peopleListItem_d14722.active__6b8ff {
+.container__99b06:hover,
+.peopleListItem_d14722.active__6b8ff,
+.container__7940a:hover {
   -webkit-box-shadow: inset 0 0 0 1px var(--third) !important;
 }
 .popout__08442,
@@ -3190,7 +3209,8 @@ div:not(.avatarWrapper_ba5175) .mask__1979f > svg > mask > rect:first-child {
 .reactionInner__4135b,
 .addReactButton__59750,
 .reaction_fef95b,
-.attachment_f3cf2c {
+.attachment_f3cf2c,
+.mainCard__8a660 {
   border: none;
 }
 .slider__41d94 > svg > path {
@@ -3278,6 +3298,7 @@ div:not(.avatarWrapper_ba5175) .mask__1979f > svg > mask > rect:first-child {
 .newMosaicStyle__8d3be .textContainer__709ff,
 .newMosaicStyle__8d3be .footer__06f4b,
 .hljs,
+.container__99b06,
 .calendarPicker__5c474 .react-datepicker__header,
 .theme-dark .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--disabled:hover,
 .popoutContainer__7b9a3,
@@ -4258,6 +4279,11 @@ div:not(.avatarWrapper_ba5175) .mask__1979f > svg > mask > rect:first-child {
 .media__059e0,
 .interactive__776ee,
 .link__95dc0,
+.container__8759a,
+.privateChannels__93473,
+.platform-win .sidebar_ded4b5,
+.mainCard__8a660,
+.guildSeparator_dcb3cc,
 ::-webkit-scrollbar-thumb {
   border-radius: var(--roundness) !important;
 }
