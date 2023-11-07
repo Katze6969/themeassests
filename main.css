@@ -899,7 +899,7 @@ button[aria-label="Send a gift"] {
   background-color: var(--bg);
 }
 .withFrame__485f4 {
-  
+
 }
 .wordmark__0d178 {
   display: flex;
@@ -3166,8 +3166,10 @@ div:not(.avatarWrapper_ba5175) .mask__1979f > svg > mask > rect:first-child {
 .peopleListItem_d14722:hover,
 .calendarPicker__5c474 .react-datepicker__day:hover,
 .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--selected,
+.wrapper_f46140:hover,
 .container__99b06:hover,
 .peopleListItem_d14722.active__6b8ff,
+.textarea_c5a7a3,
 .container__7940a:hover {
   -webkit-box-shadow: inset 0 0 0 1px var(--third) !important;
 }
@@ -4284,6 +4286,8 @@ div:not(.avatarWrapper_ba5175) .mask__1979f > svg > mask > rect:first-child {
 .platform-win .sidebar_ded4b5,
 .mainCard__8a660,
 .guildSeparator_dcb3cc,
+.mention:hover,
+.imageDetailsAdded_sda9Fa .imageWrapper_fd6587,
 ::-webkit-scrollbar-thumb {
   border-radius: var(--roundness) !important;
 }
@@ -4304,17 +4308,26 @@ div:not(.avatarWrapper_ba5175) .mask__1979f > svg > mask > rect:first-child {
 .voiceChannelsButton__46c37,
 .title-3VYtQS,
 .link__95dc0,
+.wrapper_f46140,
+.mention,
 .title__9e2b0 > div {
   border-radius: 0px;
   color: var(--third);
 }
 .title__31b19,
 .title__9e2b0,
-.username_d30d99 {
+.username_d30d99,
+.nickname__3d1d7 {
   color: var(--third) !important;
 }
-.newTag-3g6dtV {
-  background-color: var(--bg3);
+.pronouns__8bcdb,
+.memberSinceContainer__0a28b > div {
+  color: var(--sec);
+}
+.newTag-3g6dtV,
+.mention,
+.mention:hover {
+  background-color: var(--bg2);
 }
 .activityCardDetails-F6IN_s > div > h2,
 .amount_defb68,
@@ -4327,7 +4340,9 @@ div:not(.avatarWrapper_ba5175) .mask__1979f > svg > mask > rect:first-child {
 .tutorialMessages__107dd {
   color: var(--third);
 }
-.tooltipBodyContainer__182a5 > div {
+.tooltipBodyContainer__182a5 > div,
+.mention:hover,
+.name_c08dbc {
   color: var(--third) !important;
 }
 .activityCardTag-glB7qz > div,
