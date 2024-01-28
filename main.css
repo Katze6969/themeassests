@@ -2648,6 +2648,9 @@ button[aria-label="Send a gift"] {
 .mask__1979f foreignObject {
   mask: none !important;
 }
+.spriteGreyscale__7b70f {
+  -webkit-mask-image: none !important;
+}
 .bannerSVGWrapper-qc0szY > mask > circle {
   r: 0 ;
 }
