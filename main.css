@@ -298,12 +298,6 @@
 .newMessagesBar__8b272, .newText__57553, .unreadMentionsIndicatorTop__153ad, .unreadMentionsIndicatorBottom__9351c {
   display: none !important;
 }
-.layers__1c917 .layer_f7d46a :first-of-type[aria-hidden="true"] {
-  transform: none !important;
-  opacity: 1 !important;
-  pointer-events: none !important;
-  transition: 100ms;
-}
 .contentRegion__08eba .contentRegionScroller__9ae20 {
   background-color: transparent;
 }
